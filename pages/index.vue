@@ -1,68 +1,25 @@
-<template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        blog-alpha
-      </h1>
-      <h2 class="subtitle">
-        My finest Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  v-card
+    v-card-text
+      //- Here we use/render the Markdown component
+      //- just like we would do with any other
+      my-markdown-post
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import LocalComponent from '~/components/LocalComponent.vue'
+// Here we simply import the .md file like any other component
+// thanks to the frontmatter-markdown-loader
+import MyMarkdownPost from '~/content/blog/hello-world.md'
+
+// Let's make the local and async components available to our Markdown file
+MyMarkdownPost.vue.component.components = {
+  AsyncComponent: () => import('~/components/AsyncComponent.vue'),
+  LocalComponent
+}
 
 export default {
-  components: {
-    Logo
-  }
+  // And finally make the Markdown component available here in index.vue
+  components: { MyMarkdownPost: MyMarkdownPost.vue.component }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
