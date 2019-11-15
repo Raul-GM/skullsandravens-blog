@@ -1,4 +1,6 @@
 import Mode from 'frontmatter-markdown-loader/mode'
+// import blogsEn from './content/en/blogsEn.js'
+import blogsEs from './content/es/blogsEs.js'
 
 export default {
   mode: 'spa',
@@ -57,5 +59,10 @@ export default {
         }
       })
     }
+  },
+  generate: {
+    routes: ['/es', '404']
+      // .concat(blogsEn.map(w => `/blog/${w}`))
+      .concat(blogsEs.map((blogEs) => `es/blog/${blogEs}`))
   }
 }

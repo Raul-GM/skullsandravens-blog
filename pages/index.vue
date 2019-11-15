@@ -1,25 +1,31 @@
-<template lang="pug">
-  v-card
-    v-card-text
-      //- Here we use/render the Markdown component
-      //- just like we would do with any other
-      my-markdown-post
+<template>
+  <section>
+    <p>HOLA</p>
+    <article v-for="blog in blogs" :key="blog.name">
+      <h2>{{ blog.title }}</h2>
+    </article>
+  </section>
 </template>
-
 <script>
-import LocalComponent from '~/components/LocalComponent.vue'
-// Here we simply import the .md file like any other component
-// thanks to the frontmatter-markdown-loader
-import MyMarkdownPost from '~/content/blog/hello-world.md'
-
-// Let's make the local and async components available to our Markdown file
-MyMarkdownPost.vue.component.components = {
-  AsyncComponent: () => import('~/components/AsyncComponent.vue'),
-  LocalComponent
-}
-
+import blogsEs from '~/content/es/blogsEs.js'
 export default {
   // And finally make the Markdown component available here in index.vue
-  components: { MyMarkdownPost: MyMarkdownPost.vue.component }
+  // components: { MyMarkdownPost: MyMarkdownPost.vue.component }
+  async asyncData({ app }) {
+    const blogs = blogsEs
+    async function asyncImport(blogName) {
+      const post = await import(`~/content/es/blog/${blogName}.md`)
+      return post.attributes
+    }
+    const allPosts = await Promise.all(
+      blogs.map((blog) => asyncImport(blog))
+    ).then((res) => {
+      return {
+        blogs: res
+      }
+    })
+
+    return allPosts
+  }
 }
 </script>

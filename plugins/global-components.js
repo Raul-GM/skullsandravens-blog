@@ -1,4 +1,4 @@
-import Vue from 'vue'
-import GlobalComponent from '~/components/GlobalComponent.vue'
+// import Vue from 'vue'
+// import GlobalComponent from '~/components/GlobalComponent.vue'
 
-Vue.component('GlobalComponent', GlobalComponent)
+// Vue.component('GlobalComponent', GlobalComponent)
