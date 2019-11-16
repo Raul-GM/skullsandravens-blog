@@ -1,16 +1,15 @@
 <template>
   <section>
-    <p>HOLA</p>
-    <article v-for="blog in blogs" :key="blog.name">
-      <h2>{{ blog.title }}</h2>
-    </article>
+    <h1>Título del blog</h1>
+    <p>Descripción del blog</p>
+    <BlogsList :blogs="blogs" />
   </section>
 </template>
 <script>
 import blogsEs from '~/content/es/blogsEs.js'
+import BlogsList from '~/components/sections/BlogsList'
 export default {
-  // And finally make the Markdown component available here in index.vue
-  // components: { MyMarkdownPost: MyMarkdownPost.vue.component }
+  components: { BlogsList },
   async asyncData({ app }) {
     const blogs = blogsEs
     async function asyncImport(blogName) {
