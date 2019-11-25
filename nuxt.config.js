@@ -55,7 +55,7 @@ export default {
         test: /\.md$/,
         loader: 'frontmatter-markdown-loader',
         options: {
-          mode: [Mode.VUE_COMPONENT]
+          mode: [Mode.VUE_RENDER_FUNCTIONS]
         }
       })
     }

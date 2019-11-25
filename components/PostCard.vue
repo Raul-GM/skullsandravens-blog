@@ -31,7 +31,6 @@ export default {
   },
   computed: {
     mainImage() {
-      console.log('====>', this.id)
       if (!this.id) return null
       return require(`../assets/images/blog/${this.id}/_main.jpg`)
     }

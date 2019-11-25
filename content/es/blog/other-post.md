@@ -1,6 +1,6 @@
 ---
-title: "OTHER POST"
-name: 'other-post'
+title: 'OTHER POST'
+id: 'other-post'
 date: 2019-11-15T14:06:00-05:00
 categories: ["test"]
 tags: ["other", "post"]
