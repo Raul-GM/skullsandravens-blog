@@ -1,0 +1,31 @@
+---
+title: 'Eluveitie + Lacuna Coil + Infected Rain en Madrid'
+id: 'infectedRain-lacunaCoil-eluveitie'
+date: 2019-12-01T21:32:00-05:00
+categories: ['concierto']
+tags: ['eluveitie', 'lacuna coil', 'infected rain', 'lena scissorhands', 'cristina scabbia', 'andrea ferro', 'maki', 'endorphin', 'black anima', 'ategnatos', 'black box', 'vistalegre']
+description: |
+    Concierto de Eluveitie + Lacuna Coil + Infected Rain el 28 de Noviembre de 2019 en la sala Black Box del Palacio de Vistalegre de Madrid
+---
+
+El jueves 28 de Noviembre era una cita marcada en mi calendario desde hacía muchos meses. Y es que, desde que vi a mis italianos hace 3 años, me hice la promesa de no perderme a Lacuna Coil cuando pasaran por Madrid. Y encima venían acompañados de los moldavos Infected Rain (tenía curiosidad por veren directo a Lena Scissorhands) y los suizos Eluveitie. Estos últimos como cabeza de cartel.
+
+Se notaba que había mucha expectación, por que a pesar de ser un día de diario y que las puertas abrían pronto y que era un día bastante frío, la gente se empezó a reunir n las puertas del Palacio de Vistalegre desd bien temprano. Y es que se notaba que había muchas ganas de ver a Cristina Scabbia y compañía y, aún más, a Eluveitie.
+
+Los Moldavos fueron los encargados de hacernos entrar en calor y creo que, a pesar de los problemas que tuvieron, unos focos que cegaban al grupo y un mal sonido en los primeros temas, consiguieron ponernos en pie. Todo el grupo estuvo entregado y poniéndole mucha pasión para que el público se lo pasara bien. Vidick, estuvo bailando, saltando y meneando sus rastas durante todo su concierto. Serghei, el otro guitarra, y Vladimir, el bajo, estuvieron constantemente interactuando con el público y lanzando púas como si no hubiera un mañana. Eugen Voluta estuvo aporreando la guitarra sin descanso. Todo esto mientras Lena estuvo tirando de guturales y limpios canción tras canción. Animando al público constantemente. Estaban tan entregados en su actuación que en el último tema, Lena bajó del escenario, se encaramó a la valla que separaba el escenario del público y se desgarró el alma para darnos un último tema que entrará en la historia de los temazos que he escuchado en directo. Ella acabó con lágrimas en los ojos, el público, enloquecido y yo con la piel de gallina. Decía Lena al principio de concierto que era su primera vez en Madrid. Espero de todo corazón que no sea la última.
+
+Lacuna Coil regresaban a la capital tres años después para presentarnos en directo los temas de su nuevo album, Blac Anima. Album que ha sido muy bien acogido en nuestro país situándose en el puesto 22 de los discos más vendidos (que no es moco de pavo). Los italianos estuvieron espléndidos en todo momento, se les veía disfrutar sobre el escenario, con un Andrea Ferro (que ha mejorado una barbaridad a nivel vocal en los últimos años) muy activo, aunque con algunos problemas de sonido (en ocasiones no se le escuchaba prácticamente nada) y una Cristina Scabbia que, qué puedo decir de ella. No he visto una voz en directo como la suya. Potente, limpia, vibrante... Es una delicia escucharla. El resto de la banda, "Maki" (bajo), Diego Cavallotti (guitarra) y Ryan Folden (batería) estuvieron impecables, dejando todo el espectáculo a Cristina y Andrea que estuvieron agradeciendo en todo momento que eligiéramos estar allí con ellos esa noche.
+
+Mención especial también a los nuevos temas en directo. Son una pasada. Sword of Anger sonó de maravilla, Layers of Time me voló la cabeza sobre todo en las partes de Cristina, mostrando una vez más su maravillosa voz. Reckless levantó al público y con Veneficium se me puso la piel de gallina. Cada vez va a estar más difícil dejar fuera canciones fuera de su setlist.
+
+No se si es por las grandes expectativas o porque no venían como cabeza de cartel, pero el concierto se me hizo corto y quizá un poco más frío que el de hace 3 años. Cuando me quise dar cuenta ya estaba sonando Enjoy the Silence, canción que normalmente tocan de la mitad hacia el final de su show. Además, comparándolo con otras paradas de su gira, se dejaron fuera del setlist unas 3 cancione (me hubiera gustado escuchar en directo Naughty Christmas, qué queréis que os diga). Necesito más Lacuna Coil por mis venas, y tiene pinta que tendremos más en 2020...
+
+Una vez despedidos a los italianos, colgaron un telón para ocultar todo lo que se estaba preparando para Eluveitie. Tenía muchas ganas de verles, porque había oído muchas bondades sobre sus directos, con todo su despliegue instrumental y su folk-metal tan festivo.
+
+Tras una corta espera, aparecieron Fabienne Erni (vocales y arpa), Nicole Ansperger (violín) y Michalina Malisz (zanfona) ataviadas con túnicas blancas con capuchas, mientras cantaban el Verja Urit An Bitus Fabienne tocaba una especie de trompeta alta acabada en una cabeza de animal. Momento en el que se retiraron del escenario para dejar caer el telón y descubrir el resto del grupo empezando con la canción que da nombre a su último disco Ategnatos.
+
+La verdad es que impresiona ver a 9 músicos con tanto talento encima de un escenario tocando de forma armoniosa y empastando perfectamente los diversos instrumentos que nos presentaron. Y es que a parte del violín, el arpa y la zanfona anteriormente descritos, pudimos disfrutar de la flauta y la gaita (a manos de Matteo Sisti), la mandola y un set variado de flautas (a cargo del vocalista Chrigel Glanzmann) y los clásicos bajo, guitarras y batería (por Kay Brem, Rafael Salzmann, Jonas Wolf y Alain Ackermann).
+
+Centrándose sobretodo en su último trabajo, cayeron un gran número de temazos que hicieron las delicias del público. Me gustaría destacar Epona y A Rose for Epona, con una sobradísima Fabienne. Deathwalker y Ambiramus, que para mí son los temazos de Ategnatos y la ya clásica Helvetios que provocó la locura máxima.
+
+La noche del jueves fue una gran fiesta con tres grupos bastante diferentes con un fin común, hacernoslo pasar de lujo. Más noches así, por favor!
