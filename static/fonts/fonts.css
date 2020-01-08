@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "Girassol";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 400;
+    src: url("Girassol-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Muli";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 400;
+    src: url("Muli-VariableFont:wght.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Prociono";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 400;
+    src: url("Prociono-Regular.ttf") format("truetype");
+}

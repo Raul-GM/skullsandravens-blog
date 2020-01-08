@@ -1,15 +1,12 @@
 <template>
   <nuxt-link :to="`blog/${id}`">
-    <div>
-      <h3>{{ title }}</h3>
-      <img
-        :src="mainImage"
-        width="200px"
-        height="200px"
-        data-loading="esperando"
-      />
-      <span>{{ date }}</span>
-      <p>{{ description }}</p>
+    <div :style="{ 'background-image': `url(${mainImage})` }" class="post-card">
+      <span class="post-card__date">{{ date }}</span>
+      <!-- <img :src="mainImage" data-loading="esperando" class="post-card__image" /> -->
+      <div>
+        <h3>{{ title }}</h3>
+        <p>{{ description }}</p>
+      </div>
     </div>
   </nuxt-link>
 </template>
@@ -17,16 +14,20 @@
 export default {
   props: {
     title: {
-      type: String
+      type: String,
+      default: ''
     },
     description: {
-      type: String
+      type: String,
+      default: ''
     },
     id: {
-      type: String
+      type: String,
+      default: ''
     },
     date: {
-      type: String
+      type: String,
+      default: ''
     }
   },
   computed: {
@@ -37,4 +38,17 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+.post-card {
+  background-size: cover;
+  background-position: center;
+  border: 1px solid var(--text-color);
+  border-radius: 6px;
+  height: 300px;
+  overflow: hidden;
+  width: 250px;
+}
+.post-card__date {
+  position: absolute;
+}
+</style>

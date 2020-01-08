@@ -42,7 +42,13 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['nuxt-webfontloader'],
+  webfontloader: {
+    custom: {
+      families: ['Girassol', 'Muli', 'Prociono'],
+      urls: ['/fonts/fonts.css']
+    }
+  },
   /*
    ** Build configuration
    */
