@@ -10,7 +10,7 @@
     font-style: normal;
     font-display: swap;
 	font-weight: 400;
-    src: url("Muli-VariableFont:wght.ttf") format("truetype");
+    src: url("Muli-VariableFont.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Prociono";
