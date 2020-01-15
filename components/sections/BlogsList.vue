@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Listado de blogs</h2>
     <article v-for="blog in blogs" :key="blog.id">
       <PostCard
         :title="blog.title"
@@ -17,7 +16,8 @@ export default {
   components: { PostCard },
   props: {
     blogs: {
-      type: Array
+      type: Array,
+      default: () => []
     }
   }
 }

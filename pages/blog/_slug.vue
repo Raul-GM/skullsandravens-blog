@@ -12,6 +12,13 @@
 import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
 
 export default {
+  components: { DynamicMarkdown },
+  computed: {
+    mainImage() {
+      if (!this.id) return null
+      return require(`~/assets/images/blog/${this.id}/_main.jpg`)
+    }
+  },
   async asyncData ({params, app}) {
     const { slug } = params
     const post = await import(`~/content/es/blog/${slug}.md`)
@@ -24,13 +31,6 @@ export default {
       staticRenderFuncs: post.vue.staticRenderFns,
     }
   },
-  components: { DynamicMarkdown },
-  computed: {
-    mainImage() {
-      if (!this.id) return null
-      return require(`~/assets/images/blog/${this.id}/_main.jpg`)
-    }
-  }
 }
 </script>
 <style lang="scss"></style>

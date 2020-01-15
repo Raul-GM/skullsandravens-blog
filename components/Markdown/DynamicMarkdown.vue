@@ -2,22 +2,30 @@
 import InlineCode from './InlineCode.vue'
 
 export default {
-props: ["renderFunc", "staticRenderFuncs"],
+  components: {
+      InlineCode
+  },
+  props: {
+    renderFunc: {
+      type: Function,
+      default: () => {},
+    },
+    staticRenderFuncs: {
+      type: Object,
+      default: () => {},
+    }
+  },
 
-components: {
-    InlineCode
-},
+  computed: {
+  },
 
-computed: {
-},
+  created () {
+      this.templateRender = this.renderFunc
+      this.$options.staticRenderFns = this.staticRenderFuncs
+  },
+  render (createElement) {
+      return this.templateRender ? this.templateRender() : createElement("div", "Rendering");
+  },
 
-render (createElement) {
-    return this.templateRender ? this.templateRender() : createElement("div", "Rendering");
-},
-
-created () {
-    this.templateRender = this.renderFunc
-    this.$options.staticRenderFns = this.staticRenderFuncs
-}
 }
 </script>
