@@ -8,3 +8,10 @@ Tras un tiempo de espera, empezaba la fiesta de Temperance. Temperance es un gru
 
 Temperance tocó sobre todo, canciones de su último disco. Una vez más, que pena que el sonido no fuera el deseado, ya que no pudimos escuchar en condiciones la fabulosa My Demons Can't Sleep. Esta parte se me pasó volando y por supuesto, con ganas de más Temperance. Esperemos que vuelvan dentro de poco, como cabezas de cartel (a sus espaldas, a pesar de ser muy jóvenes, llevan un buen puñado de discos), con más tiempo para demostrar todo lo que valen, y con un sonido acorde.
 
+Tarja se estaba haciendo esperar y entre el público empezaba a cundir la alarma sobre las últimas noticias sobre el coronavirus. Pocos pensábamos que ese sería nuestro último concierto en un buen periodo de tiempo.
+
+El arranque del concierto fue espectacular. Tarja y el resto de músicos abrieron con My Serene, tema de su último album, "In The Raw" que era el que venían a presentar en su gira, seguido de My Demons In You, en la que personalmente, no eché en falta los guturales de Alissa en ningún momento. Estos primeros compases del concierto me hicieron confirmar lo que ya suponía y que era la comidilla de la cola del concierto. Tarja es una diva. Es una mujer que nada más pisar el escenario lo llena. Su elegancia al andar, al moverse, al cantar, te atrapa al instante y no te suelta hasta que sale de él. Da igual si está cantando, hablando o simplemente bebiendo agua, que Tarja capta toda tu atención. La cantante finesa estuvo muy comunicativa con el público hablando mayoritariamente en un español muy correcto.
+
+Los temas cayeron poco a poco. Más rápidos o más lentos, destacando para mí temas como Goodbye Stranger (aquí si eché en falta a Cristina Scabbia, pero esto ya es algo personal) y Falling Awake. Cabe destacar los grandísimos artistas que acompañan a Tarja en el escenario. Y es que, a pesar de estar todos en un segundo lugar, brillaron también con su talento y actitud. A mí personalmente, su bajista me ganó y el chelista le dio un toque genial a todas las canciones.
+
+Así llegamos a uno de los momentos de la noche. La interpretación de mi querido Planet Hell de Nightwish. 
