@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="post-list">
     <article v-for="blog in blogs" :key="blog.id">
       <PostCard
         :title="blog.title"
@@ -22,4 +22,9 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+.post-list {
+  display: grid;
+  grid-gap: 1em;
+}
+</style>
