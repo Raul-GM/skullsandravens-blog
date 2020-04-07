@@ -1,18 +1,22 @@
 <template>
-  <div>
-    <h1>{{ title }}</h1>
-    <img :src="mainImage" />
+  <div class="post">
+    <div
+      :style="{ 'background-image': `url(${mainImage})` }"
+      class="post-header__image"
+    />
+    <Title :text="title" class="post-header__title" />
     <DynamicMarkdown
       :render-func="renderFunc"
       :static-render-funcs="staticRenderFuncs"
+      class="post-text"
     />
   </div>
 </template>
 <script lang="js">
 import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
-
+import Title from '~/components/Title'
 export default {
-  components: { DynamicMarkdown },
+  components: { DynamicMarkdown, Title },
   computed: {
     mainImage() {
       if (!this.id) return null
@@ -33,4 +37,36 @@ export default {
   },
 }
 </script>
-<style lang="scss"></style>
+<style>
+:root {
+  --post-cols: 1.5rem 0 auto 0 1.5rem;
+}
+.post-text {
+  display: grid;
+  grid-gap: 2rem 0;
+  grid-template-columns: var(--post-cols);
+  grid-template-rows: auto;
+  padding: 1rem 0 2rem;
+}
+.post-text > * {
+  grid-column: 3 / -3;
+}
+.post-header__image {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 55vh;
+  position: relative;
+  width: 100%;
+}
+.post-header__title {
+  background-color: var(--background-color);
+  font-size: 2em;
+  padding: 2rem 0 1rem;
+  position: sticky;
+  text-align: center;
+  top: 0;
+}
+</style>
