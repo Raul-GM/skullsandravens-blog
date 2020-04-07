@@ -14,4 +14,6 @@ El arranque del concierto fue espectacular. Tarja y el resto de músicos abriero
 
 Los temas cayeron poco a poco. Más rápidos o más lentos, destacando para mí temas como Goodbye Stranger (aquí si eché en falta a Cristina Scabbia, pero esto ya es algo personal) y Falling Awake. Cabe destacar los grandísimos artistas que acompañan a Tarja en el escenario. Y es que, a pesar de estar todos en un segundo lugar, brillaron también con su talento y actitud. A mí personalmente, su bajista me ganó y el chelista le dio un toque genial a todas las canciones.
 
-Así llegamos a uno de los momentos de la noche. La interpretación de mi querido Planet Hell de Nightwish. 
+Así llegamos a uno de los momentos de la noche. La interpretación de mi querido Planet Hell de Nightwish. Casi se me cae una lagrimilla porque particularmente es una de mis canciones favoritas del grupo. Y del momentazo de la noche, pasamos al momento mágico; y no fue otro que nuestra Tarja interpretando el You and I the su último album sólo con el piano. La piel de gallina...
+
+Poco a poco fueron descargando los temas hasta llegar a los últimos compases del concierto. Con un público entregado y una magina en el ambiente que sólo una diva de su posición puede dejar. Pero no fue sólo fruto de su voz, su presencia o sus tablas, si no que fue parte también del resto de músicos que le acompañaban. Y es que diga lo que diga y pase lo que pase, Tarja Turunen no camina sola.
