@@ -1,11 +1,11 @@
 ---
 title: 'Tarja + Temperance + Serpentyne en Madrid'
-id: 'tarja'
+id: 'tarja-2020'
 date: 2020-04-10T13:00:00-05:00
 categories: ['concierto']
 tags: ['tarja','in the raw', 'temperance', 'serpentyne', 'max lilja', 'doug wimbish' , 'christian kretschmar', 'timm schreiner', 'alex scholpp', 'alessia scolletti', 'michele guaitoli', 'marco pastorino', 'alfonso mocerino', 'luca negro']
 description: |
-    Concierto de Jinjer + The Agonist + Khroma + Space of Variations el 11 de Diciembre de 2019 en la sala Mon de Madrid
+    Concierto de la gira "In The Raw" que unió en la sala But a Tarja + Temperance + Serpentyne el 9 de Marzo de 2020 en Madrid
 ---
 Demasiados años llevaba yo esperando este momento. Encontrarme con Tarja sobre un escenario y disfrutar de su portentosa voz en directo. Es una cita, que por cosas inexplicables de la vida, se ha ido posponiendo hasta el pasado lunes, 9 de marzo de 2020. Intentaré escribir este post, como siempre, con el mayor de mis respetos y admiración por todos los músicos que pisaron el escenario esa magnífica noche y, sobre todo, sin caer en la manida retahíla de la relación (o ex-relación) de Tarja con Nightwish.
 
