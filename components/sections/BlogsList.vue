@@ -25,6 +25,6 @@ export default {
 <style>
 .post-list {
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 2em;
 }
 </style>

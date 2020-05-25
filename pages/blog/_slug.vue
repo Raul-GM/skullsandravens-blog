@@ -55,7 +55,7 @@ export default {
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center calc(var(--header-height) - 50px);
   background-attachment: fixed;
   height: 55vh;
   position: relative;
@@ -63,10 +63,11 @@ export default {
 }
 .post-header__title {
   background-color: var(--background-color);
-  font-size: 2em;
-  padding: 2rem 0 1rem;
+  font-size: 1.8em;
+  padding: 1rem 0 1rem;
   position: sticky;
   text-align: center;
-  top: 0;
+  top: var(--header-height);
+  z-index: 50;
 }
 </style>

@@ -47,6 +47,10 @@ export default {
   overflow: hidden;
   position: relative;
   width: 250px;
+  display: block;
+  z-index: 5;
+  box-shadow: -5px -5px 0 2px var(--primary-color),
+    5px 5px 0 2px var(--alternative-color);
 }
 .post-card__date {
   background-color: var(--background-color-semitransparent);

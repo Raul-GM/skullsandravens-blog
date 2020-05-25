@@ -1,5 +1,5 @@
 <template>
-  <h1 class="title-text">{{ text }}</h1>
+  <span class="important">{{ text }}</span>
 </template>
 <script>
 export default {
@@ -11,9 +11,9 @@ export default {
   }
 }
 </script>
-<style>
-.title-text {
-  font-family: var(--font-title);
-  font-size: 3em;
+<style scoped>
+.important {
+  font-style: italic;
+  font-weight: 900;
 }
 </style>
