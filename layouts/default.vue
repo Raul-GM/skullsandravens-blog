@@ -16,6 +16,6 @@ export default {
 </script>
 <style>
 .general-container {
-  margin-top: var(--header-height);
+  margin-top: var(--header-height-fixed);
 }
 </style>

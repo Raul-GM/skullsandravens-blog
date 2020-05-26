@@ -25,7 +25,8 @@
     "nuxt-webfontloader": "^1.1.0",
     "path": "^0.12.7",
     "pug-loader": "^2.4.0",
-    "pug-plain-loader": "^1.0.0"
+    "pug-plain-loader": "^1.0.0",
+    "vue-fixed-header": "^3.2.14"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",

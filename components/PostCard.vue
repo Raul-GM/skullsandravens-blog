@@ -49,8 +49,7 @@ export default {
   width: 250px;
   display: block;
   z-index: 5;
-  box-shadow: -5px -5px 0 2px var(--primary-color),
-    5px 5px 0 2px var(--alternative-color);
+  box-shadow: -5px -5px 0 2px var(--skull), 5px 5px 0 2px var(--raven);
 }
 .post-card__date {
   background-color: var(--background-color-semitransparent);

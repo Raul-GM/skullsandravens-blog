@@ -1,16 +1,20 @@
 <template>
-  <header class="header-container">
-    <h1 class="title">{{ title }}</h1>
-    <nav class="header-container_nav">
-      <NavLink :active="true" text="Inicio" />
-      <NavLink text="Women of Rock" />
-    </nav>
-  </header>
+  <fixed-header>
+    <header class="header-container">
+      <h1 class="title">{{ title }}</h1>
+      <nav class="header-container_nav">
+        <NavLink :active="true" text="Inicio" />
+        <NavLink text="Women of Rock" />
+      </nav>
+    </header>
+  </fixed-header>
 </template>
 <script>
+import FixedHeader from 'vue-fixed-header'
 import NavLink from './NavLink'
+
 export default {
-  components: { NavLink },
+  components: { NavLink, FixedHeader },
   props: {
     title: {
       type: String,
@@ -32,7 +36,18 @@ export default {
   position: fixed;
   right: 0;
   top: 0;
+  transition: var(--transition-fast) max-height;
   z-index: 10;
+}
+.header-container.vue-fixed-header--isFixed {
+  flex-direction: row;
+  max-height: var(--header-height-fixed);
+}
+.header-container.vue-fixed-header--isFixed .title {
+  font-size: 1.2rem;
+}
+.header-container.vue-fixed-header--isFixed .nav-link {
+  font-size: 0.9rem;
 }
 .header-container_nav {
   display: flex;

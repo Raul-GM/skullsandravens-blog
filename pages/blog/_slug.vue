@@ -64,10 +64,10 @@ export default {
 .post-header__title {
   background-color: var(--background-color);
   font-size: 1.8em;
-  padding: 1rem 0 1rem;
+  padding: 1rem 0.5rem;
   position: sticky;
   text-align: center;
-  top: var(--header-height);
+  top: var(--header-height-fixed);
   z-index: 50;
 }
 </style>
