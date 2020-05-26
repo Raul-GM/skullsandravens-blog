@@ -1,7 +1,9 @@
 export default [
-  'hello-world',
-  'other-post',
-  'infectedRain-lacunaCoil-eluveitie',
+  'tarja-2020',
+  'sabaton-2020',
+  'bestOf-2019',
   'theAgonist-jinjer',
-  'bestOf-2019'
+  'infectedRain-lacunaCoil-eluveitie',
+  'other-post',
+  'hello-world'
 ]
