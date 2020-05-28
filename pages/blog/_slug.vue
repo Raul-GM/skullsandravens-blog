@@ -10,13 +10,15 @@
       :static-render-funcs="staticRenderFuncs"
       class="post-text"
     />
+    <BackButton />
   </div>
 </template>
 <script lang="js">
 import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
 import Title from '~/components/Title'
+import BackButton from '~/components/BackButton'
 export default {
-  components: { DynamicMarkdown, Title },
+  components: { DynamicMarkdown, Title, BackButton },
   computed: {
     mainImage() {
       if (!this.id) return null
@@ -46,7 +48,7 @@ export default {
   grid-gap: 2rem 0;
   grid-template-columns: var(--post-cols);
   grid-template-rows: auto;
-  padding: 1rem 0 2rem;
+  padding: 1rem 0 4rem;
 }
 .post-text > * {
   grid-column: 3 / -3;
