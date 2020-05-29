@@ -23,8 +23,30 @@ export default {
 }
 </script>
 <style>
+:root {
+  --num-cols: 1;
+  --card-gap: 2rem;
+}
+@media (min-width: 550px) {
+  :root {
+    --num-cols: 2;
+  }
+}
+@media (min-width: 1000px) {
+  :root {
+    --num-cols: 3;
+    --card-gap: 3rem;
+  }
+}
+@media (min-width: 1500px) {
+  :root {
+    --num-cols: 4;
+    --card-gap: 5rem;
+  }
+}
 .post-list {
   display: grid;
-  grid-gap: 2em;
+  grid-gap: var(--card-gap);
+  grid-template-columns: repeat(var(--num-cols), 1fr);
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
-  <a v-bind:class="{ active: active }" href="#" class="nav-link">
-    {{ text }}
-  </a>
+  <nuxt-link :to="'/'">
+    <a v-bind:class="{ active: active }" class="nav-link">
+      {{ text }}
+    </a>
+  </nuxt-link>
 </template>
 <script>
 export default {

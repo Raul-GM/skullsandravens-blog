@@ -38,15 +38,25 @@ export default {
 }
 </script>
 <style>
+:root {
+  --card-width: 250px;
+  --card-height: 300px;
+}
+@media (min-width: 1000px) {
+  :root {
+    --card-width: 290px;
+    --card-height: 320px;
+  }
+}
 .post-card {
   background-size: cover;
   background-position: center;
   border: 0;
   border-radius: 6px;
-  height: 300px;
+  height: var(--card-height);
   overflow: hidden;
   position: relative;
-  width: 250px;
+  width: var(--card-width);
   display: block;
   z-index: 5;
   box-shadow: -5px -5px 0 2px var(--skull), 5px 5px 0 2px var(--raven);

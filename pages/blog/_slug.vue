@@ -42,7 +42,21 @@ export default {
 <style>
 :root {
   --post-cols: 1.5rem 0 auto 0 1.5rem;
+  --bg-size: cover;
+  --bg-position: 50px;
 }
+
+@media (min-width: 550px) {
+  :root {
+    --post-cols: 5rem 0 auto 0 5rem;
+  }
+}
+@media (min-width: 900px) {
+  :root {
+    --bg-size: 700px;
+  }
+}
+
 .post-text {
   display: grid;
   grid-gap: 2rem 0;
@@ -55,9 +69,9 @@ export default {
 }
 .post-header__image {
   display: block;
-  background-size: cover;
+  background-size: var(--bg-size);
   background-repeat: no-repeat;
-  background-position: center calc(var(--header-height) - 50px);
+  background-position: center calc(var(--header-height) - var(--bg-position));
   background-attachment: fixed;
   height: 55vh;
   position: relative;
