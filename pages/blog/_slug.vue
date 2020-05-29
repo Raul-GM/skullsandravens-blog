@@ -10,13 +10,15 @@
       :static-render-funcs="staticRenderFuncs"
       class="post-text"
     />
+    <BackButton />
   </div>
 </template>
 <script lang="js">
 import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
 import Title from '~/components/Title'
+import BackButton from '~/components/BackButton'
 export default {
-  components: { DynamicMarkdown, Title },
+  components: { DynamicMarkdown, Title, BackButton },
   computed: {
     mainImage() {
       if (!this.id) return null
@@ -40,22 +42,36 @@ export default {
 <style>
 :root {
   --post-cols: 1.5rem 0 auto 0 1.5rem;
+  --bg-size: cover;
+  --bg-position: 50px;
 }
+
+@media (min-width: 550px) {
+  :root {
+    --post-cols: 5rem 0 auto 0 5rem;
+  }
+}
+@media (min-width: 900px) {
+  :root {
+    --bg-size: 700px;
+  }
+}
+
 .post-text {
   display: grid;
   grid-gap: 2rem 0;
   grid-template-columns: var(--post-cols);
   grid-template-rows: auto;
-  padding: 1rem 0 2rem;
+  padding: 1rem 0 4rem;
 }
 .post-text > * {
   grid-column: 3 / -3;
 }
 .post-header__image {
   display: block;
-  background-size: cover;
+  background-size: var(--bg-size);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center calc(var(--header-height) - var(--bg-position));
   background-attachment: fixed;
   height: 55vh;
   position: relative;
@@ -63,10 +79,11 @@ export default {
 }
 .post-header__title {
   background-color: var(--background-color);
-  font-size: 2em;
-  padding: 2rem 0 1rem;
+  font-size: 1.8em;
+  padding: 1rem 0.5rem;
   position: sticky;
   text-align: center;
-  top: 0;
+  top: var(--header-height-fixed);
+  z-index: 50;
 }
 </style>
