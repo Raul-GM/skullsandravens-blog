@@ -1,23 +1,17 @@
 <template>
-  <section class="main-container">
-    <img
-      src="../assets/images/logo.jpg"
-      alt="The Black Raven Blog"
-      class="main-container__logo"
-    />
-    <Title text="The Black Raven" class="main-container__title" />
-    <p>Descripción del blog</p>
-    <HorizontalDivider />
-    <BlogsList :blogs="blogs" />
-  </section>
+  <div>
+    <section class="main-container">
+      <BlogsList :blogs="blogs" />
+    </section>
+  </div>
 </template>
+
 <script>
 import blogsEs from '~/content/es/blogsEs.js'
 import BlogsList from '~/components/sections/BlogsList'
-import Title from '~/components/Title'
-import HorizontalDivider from '~/components/HorizontalDivider'
+
 export default {
-  components: { BlogsList, Title, HorizontalDivider },
+  components: { BlogsList },
   async asyncData({ app }) {
     const blogs = blogsEs
     async function asyncImport(blogName) {
@@ -41,14 +35,6 @@ export default {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 3em 1em;
-}
-.main-container__logo {
-  height: 200px;
-  object-fit: cover;
-  width: 200px;
-}
-.main-container__title {
-  padding: 1rem 0;
+  padding: 5em 1em;
 }
 </style>
