@@ -66,6 +66,7 @@ export default {
 }
 .post-text > * {
   grid-column: 3 / -3;
+  justify-self: center;
 }
 .post-header__image {
   display: block;
