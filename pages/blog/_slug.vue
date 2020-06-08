@@ -87,4 +87,11 @@ export default {
   top: var(--header-height-fixed);
   z-index: 50;
 }
+.image-gallery {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: minmax(mincontent, 1fr);
+  justify-items: center;
+  width: 100%;
+}
 </style>

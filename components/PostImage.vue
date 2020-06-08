@@ -3,7 +3,7 @@
     <div class="image-container">
       <div class="image-border-bottom-right">
         <a @click="toggleModalIsOpen()" class="image-border-top-left">
-          <img :src="imageSource" class="image" />
+          <img :alt="title" :src="imageSource" class="image" />
         </a>
       </div>
     </div>
@@ -24,6 +24,10 @@
 export default {
   props: {
     source: {
+      type: String,
+      default: ''
+    },
+    title: {
       type: String,
       default: ''
     }
@@ -95,6 +99,10 @@ export default {
   right: calc(var(--image-line-x) * -1);
   bottom: 1px;
 }
+.image-container {
+  max-width: max-content;
+  width: 100%;
+}
 .image-container:hover .image-border-bottom-right::after {
   transform: translateX(calc(-100% - calc(var(--image-line-x) * 2)));
 }
@@ -146,8 +154,8 @@ export default {
 }
 .image-modal_image {
   height: auto;
+  max-height: 100vh;
   padding: 1rem;
-  width: 100%;
-  max-width: 880px;
+  width: auto;
 }
 </style>
