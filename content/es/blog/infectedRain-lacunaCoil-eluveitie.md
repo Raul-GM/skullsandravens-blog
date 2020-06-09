@@ -46,8 +46,8 @@ Mención especial también a los nuevos temas en directo. Son una pasada. Sword 
 No se si es por las grandes expectativas o porque no venían como cabeza de cartel, pero el concierto se me hizo corto y quizá un poco más frío que el de hace 3 años. Cuando me quise dar cuenta ya estaba sonando Enjoy the Silence, canción que normalmente tocan de la mitad hacia el final de su show. Además, comparándolo con otras paradas de su gira, se dejaron fuera del setlist unas 3 cancione (me hubiera gustado escuchar en directo Naughty Christmas, qué queréis que os diga). Necesito más Lacuna Coil por mis venas, y tiene pinta que tendremos más en 2020...
 
 <post-image
-    source="infectedRain-lacunaCoil-eluveitie/Lacuna Coil 03"
-    title="El Capitán Maki al bajo"
+    source="infectedRain-lacunaCoil-eluveitie/Lacuna Coil 04"
+    title="Andrea Ferro metido totalmente en el concierto con Ryan Folden a la batería al fondo"
 />
 
 Una vez despedidos a los italianos, colgaron un telón para ocultar todo lo que se estaba preparando para Eluveitie. Tenía muchas ganas de verles, porque había oído muchas bondades sobre sus directos, con todo su despliegue instrumental y su folk-metal tan festivo.
@@ -100,8 +100,8 @@ La noche del jueves fue una gran fiesta con tres grupos bastante diferentes con 
         title="Lena culminando el concierto de Infected Rain"
     />
     <post-image
-        source="infectedRain-lacunaCoil-eluveitie/Lacuna Coil 04"
-        title="Andrea Ferro metido totalmente en el concierto con Ryan Folden a la batería al fondo"
+        source="infectedRain-lacunaCoil-eluveitie/Lacuna Coil 03"
+        title="El Capitán Maki al bajo"
     />
     <post-image
         source="infectedRain-lacunaCoil-eluveitie/Lacuna Coil 05"
