@@ -1,8 +1,16 @@
 <template>
   <ol class="ordered-list">
     <li v-for="(item, index) in list" :key="index">
-      <Important :text="item.title" />
-      <p>{{ item.text }}</p>
+      <img
+        v-if="item.imageURL"
+        :src="item.imageURL"
+        :alt="item.title"
+        class="ordered-list_image"
+      />
+      <div>
+        <Important :text="item.title" />
+        <p>{{ item.text }}</p>
+      </div>
     </li>
   </ol>
 </template>
@@ -28,13 +36,12 @@ export default {
 .ordered-list li {
   counter-increment: list;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-bottom: 1rem;
   margin-left: var(--number-list);
   position: relative;
   width: 100%;
 }
-
 .ordered-list li::before {
   content: counter(list);
   left: calc(var(--number-list) * -1);
@@ -47,5 +54,10 @@ export default {
   position: absolute;
   text-align: right;
   width: calc(var(--number-list) - 1rem);
+}
+.ordered-list_image {
+  height: 80px;
+  padding-right: 1rem;
+  width: auto;
 }
 </style>

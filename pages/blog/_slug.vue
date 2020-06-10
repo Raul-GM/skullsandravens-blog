@@ -44,16 +44,24 @@ export default {
   --post-cols: 1.5rem 0 auto 0 1.5rem;
   --bg-size: cover;
   --bg-position: 50px;
+  --image-gallery-cols: 1;
 }
 
 @media (min-width: 550px) {
   :root {
     --post-cols: 5rem 0 auto 0 5rem;
+    --image-gallery-cols: 2;
   }
 }
 @media (min-width: 900px) {
   :root {
     --bg-size: 700px;
+    --image-gallery-cols: 3;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --image-gallery-cols: 4;
   }
 }
 
@@ -66,6 +74,7 @@ export default {
 }
 .post-text > * {
   grid-column: 3 / -3;
+  justify-self: center;
 }
 .post-header__image {
   display: block;
@@ -85,5 +94,13 @@ export default {
   text-align: center;
   top: var(--header-height-fixed);
   z-index: 50;
+}
+.image-gallery {
+  align-items: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(var(--image-gallery-cols), 1fr);
+  justify-items: center;
+  width: 100%;
 }
 </style>
