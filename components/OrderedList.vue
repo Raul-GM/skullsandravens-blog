@@ -26,38 +26,38 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .ordered-list {
   --number-list: 3rem;
   counter-reset: list;
   display: flex;
   flex-wrap: wrap;
-}
-.ordered-list li {
-  counter-increment: list;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1rem;
-  margin-left: var(--number-list);
-  position: relative;
-  width: 100%;
-}
-.ordered-list li::before {
-  content: counter(list);
-  left: calc(var(--number-list) * -1);
-  line-height: 0.7;
-  font-family: var(--font-title);
-  font-size: calc(var(--number-list) - 1rem);
-  font-weight: bold;
-  margin: auto 0.5rem;
-  opacity: 0.7;
-  position: absolute;
-  text-align: right;
-  width: calc(var(--number-list) - 1rem);
-}
-.ordered-list_image {
-  height: 80px;
-  padding-right: 1rem;
-  width: auto;
+  li {
+    counter-increment: list;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    margin-left: var(--number-list);
+    position: relative;
+    width: 100%;
+    &::before {
+      content: counter(list);
+      left: calc(var(--number-list) * -1);
+      line-height: 0.7;
+      font-family: var(--font-title);
+      font-size: calc(var(--number-list) - 1rem);
+      font-weight: bold;
+      margin: auto 0.5rem;
+      opacity: 0.7;
+      position: absolute;
+      text-align: right;
+      width: calc(var(--number-list) - 1rem);
+    }
+  }
+  &_image {
+    height: 80px;
+    padding-right: 1rem;
+    width: auto;
+  }
 }
 </style>

@@ -3,7 +3,7 @@
     <div class="image-container">
       <div class="image-border-bottom-right">
         <a @click="toggleModalIsOpen()" class="image-border-top-left">
-          <img :alt="title" :src="imageSource" class="image" />
+          <ImageItem :title="title" :source="source" class="image" />
         </a>
       </div>
     </div>
@@ -21,7 +21,9 @@
   </div>
 </template>
 <script>
+import ImageItem from './ImageItem'
 export default {
+  components: { ImageItem },
   props: {
     source: {
       type: String,
@@ -52,7 +54,7 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="scss">
 .image-border-bottom-right {
   --border-size: 3px;
   --image-line-x: 10px;
@@ -102,60 +104,69 @@ export default {
 .image-container {
   max-width: max-content;
   width: 100%;
-}
-.image-container:hover .image-border-bottom-right::after {
-  transform: translateX(calc(-100% - calc(var(--image-line-x) * 2)));
-}
-.image-container:hover .image-border-bottom-right::before {
-  transform: translateY(calc(-100% + 2px - calc(var(--image-line-y) * 2)));
-}
-.image-container:hover .image-border-top-left::before {
-  transform: translateY(calc(100% - 2px + calc(var(--image-line-y) * 2)));
-}
-.image-container:hover .image-border-top-left::after {
-  transform: translateX(calc(100% + calc(var(--image-line-x) * 2)));
+  &:hover {
+    .image-border-bottom-right {
+      &::after {
+        transform: translateX(calc(-100% - calc(var(--image-line-x) * 2)));
+      }
+      &::before {
+        transform: translateY(
+          calc(-100% + 2px - calc(var(--image-line-y) * 2))
+        );
+      }
+    }
+    .image-border-top-left {
+      &::before {
+        transform: translateY(calc(100% - 2px + calc(var(--image-line-y) * 2)));
+      }
+      &::after {
+        transform: translateX(calc(100% + calc(var(--image-line-x) * 2)));
+      }
+    }
+  }
 }
 .image {
-  height: auto;
-  max-height: 300px;
-  width: auto;
-  max-width: 100%;
-}
-
-.image-modal {
-  background-color: var(--raven-semitransparent);
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 100;
-}
-.image-modal__close {
-  --close-icon-size: 1.5rem;
-  background-image: url('/assets/icons/close.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: var(--close-icon-size);
-  margin: 1rem;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: var(--close-icon-size);
-  z-index: 10;
-}
-.image-modal_container {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  position: relative;
-  width: 100%;
-}
-.image-modal_image {
-  height: auto;
-  max-height: 100vh;
-  padding: 1rem;
-  width: auto;
+  .image__item {
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+  }
+  &-modal {
+    background-color: var(--raven-semitransparent);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    &__close {
+      --close-icon-size: 1.5rem;
+      background-image: url('/assets/icons/close.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: var(--close-icon-size);
+      margin: 1rem;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: var(--close-icon-size);
+      z-index: 10;
+    }
+    &_container {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+    }
+    &_image {
+      height: auto;
+      max-height: 100vh;
+      padding: 1rem;
+      width: auto;
+    }
+  }
 }
 </style>
