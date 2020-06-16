@@ -1,9 +1,14 @@
 <template>
   <hr class="horizontal-divider" />
 </template>
-<style>
+<style lang="scss">
 .horizontal-divider {
   margin: 1rem 0;
+  &::after {
+    content: '';
+    margin-top: 0.3em;
+    display: block;
+  }
 }
 .horizontal-divider,
 .horizontal-divider::after {
@@ -18,10 +23,5 @@
   );
   margin: 2rem 0;
   width: 100%;
-}
-.horizontal-divider::after {
-  content: '';
-  margin-top: 0.3em;
-  display: block;
 }
 </style>

@@ -39,7 +39,7 @@ export default {
   },
 }
 </script>
-<style>
+<style lang="scss">
 :root {
   --post-cols: 1.5rem 0 auto 0 1.5rem;
   --bg-size: cover;
@@ -71,10 +71,10 @@ export default {
   grid-template-columns: var(--post-cols);
   grid-template-rows: auto;
   padding: 1rem 0 4rem;
-}
-.post-text > * {
-  grid-column: 3 / -3;
-  justify-self: center;
+  & > * {
+    grid-column: 3 / -3;
+    justify-self: center;
+  }
 }
 .post-header__image {
   display: block;
@@ -99,8 +99,13 @@ export default {
   align-items: center;
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(var(--image-gallery-cols), 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(Min(8em, 100%), 1fr));
   justify-items: center;
   width: 100%;
+  .image__item {
+    max-height: none;
+    object-fit: cover;
+    height: 20rem;
+  }
 }
 </style>

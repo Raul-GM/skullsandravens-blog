@@ -20,7 +20,7 @@
 <script>
 export default {}
 </script>
-<style>
+<style lang="scss">
 .back-button {
   background-color: var(--raven);
   border-radius: 3px;
@@ -34,11 +34,11 @@ export default {}
   right: 0;
   transition: var(--transition-fast) opacity ease-in-out;
   width: 3rem;
-}
-.back-button:hover {
-  opacity: 1;
-}
-.back-button__img path {
-  fill: var(--skull);
+  &:hover {
+    opacity: 1;
+  }
+  &__img path {
+    fill: var(--skull);
+  }
 }
 </style>
