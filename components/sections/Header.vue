@@ -23,7 +23,7 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="scss">
 .header-container {
   align-items: center;
   background-color: var(--text-color);
@@ -38,22 +38,23 @@ export default {
   top: 0;
   transition: var(--transition-fast) max-height;
   z-index: 10;
+  &.vue-fixed-header--isFixed {
+    flex-direction: row;
+    max-height: var(--header-height-fixed);
+    .title {
+      font-size: 1.2rem;
+    }
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  }
+  &_nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
-.header-container.vue-fixed-header--isFixed {
-  flex-direction: row;
-  max-height: var(--header-height-fixed);
-}
-.header-container.vue-fixed-header--isFixed .title {
-  font-size: 1.2rem;
-}
-.header-container.vue-fixed-header--isFixed .nav-link {
-  font-size: 0.9rem;
-}
-.header-container_nav {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+
 .title {
   font-family: var(--font-title);
   font-size: 2.2em;
