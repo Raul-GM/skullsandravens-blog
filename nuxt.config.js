@@ -67,7 +67,7 @@ export default {
     }
   },
   generate: {
-    routes: ['/es', '404']
+    routes: ['/', '404']
       // .concat(blogsEn.map(w => `/blog/${w}`))
       .concat(blogsEs.map((blogEs) => `es/blog/${blogEs}`))
   }
