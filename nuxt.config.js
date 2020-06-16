@@ -31,7 +31,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/global-components.js', '~/plugins/filters.js'],
+  plugins: [
+    { src: '~plugins/ga.js', mode: 'client' },
+    '~/plugins/global-components.js',
+    '~/plugins/filters.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */
