@@ -102,7 +102,7 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(Min(8em, 100%), 1fr));
   justify-items: center;
   width: 100%;
-  .image {
+  .image__item {
     max-height: none;
     object-fit: cover;
     height: 20rem;

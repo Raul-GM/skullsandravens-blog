@@ -3,7 +3,7 @@
     <div class="image-container">
       <div class="image-border-bottom-right">
         <a @click="toggleModalIsOpen()" class="image-border-top-left">
-          <img :alt="title" :src="imageSource" class="image" />
+          <ImageItem :title="title" :source="source" class="image" />
         </a>
       </div>
     </div>
@@ -21,7 +21,9 @@
   </div>
 </template>
 <script>
+import ImageItem from './ImageItem'
 export default {
+  components: { ImageItem },
   props: {
     source: {
       type: String,
@@ -114,20 +116,22 @@ export default {
       }
     }
     .image-border-top-left {
-      ::before {
+      &::before {
         transform: translateY(calc(100% - 2px + calc(var(--image-line-y) * 2)));
       }
-      ::after {
+      &::after {
         transform: translateX(calc(100% + calc(var(--image-line-x) * 2)));
       }
     }
   }
 }
 .image {
-  height: auto;
-  max-height: 300px;
-  width: auto;
-  max-width: 100%;
+  .image__item {
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+  }
   &-modal {
     background-color: var(--raven-semitransparent);
     bottom: 0;
