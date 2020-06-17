@@ -3,7 +3,7 @@
     <div class="image-container">
       <div class="image-border-bottom-right">
         <a @click="toggleModalIsOpen()" class="image-border-top-left">
-          <ImageItem :title="title" :source="source" class="image" />
+          <ImageItem :title="title" :source="thumbSource" class="image" />
         </a>
       </div>
     </div>
@@ -40,6 +40,9 @@ export default {
     }
   },
   computed: {
+    thumbSource() {
+      return `${this.source}-thumb`
+    },
     imageSource() {
       return require(`~/assets/images/blog/${this.source}.jpg`)
     },
