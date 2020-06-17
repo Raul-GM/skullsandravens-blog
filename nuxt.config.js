@@ -8,15 +8,22 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Skulls & Ravens - Un blog sobre Rock y Heavy Metal',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content:
+          'Un blog sobre Rock y Heavy Metal. Se hablará de los conciertos a los que he asistido. Habrá una sección de mujeres de la industria del Metal y mucho más esta por venir'
+      },
+      { name: 'robots', content: 'index, follow' },
+      {
+        name: 'viewport',
+        content:
+          'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+      },
+      { name: 'author', content: 'RaúlGM' },
+      { name: 'copyright', content: 'Todos los derechos reservados a RaúlGM' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
@@ -31,7 +38,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/global-components.js', '~/plugins/filters.js'],
+  plugins: [
+    { src: '~plugins/ga.js', mode: 'client' },
+    '~/plugins/global-components.js',
+    '~/plugins/filters.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -67,7 +78,7 @@ export default {
     }
   },
   generate: {
-    routes: ['/es', '404']
+    routes: ['/', '404']
       // .concat(blogsEn.map(w => `/blog/${w}`))
       .concat(blogsEs.map((blogEs) => `es/blog/${blogEs}`))
   }

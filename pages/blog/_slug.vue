@@ -33,10 +33,25 @@ export default {
       name: slug,
       id: attributes.id,
       title: attributes.title,
+      description: attributes.description,
       renderFunc: post.vue.render,
       staticRenderFuncs: post.vue.staticRenderFns,
     }
   },
+  head() {
+    return {
+      title: this.title,
+      meta: [{
+        hid: 'author',
+        name: 'author',
+        content: 'RaúlGM'
+      },{
+        hid: 'description',
+        name: 'description',
+        content: this.description
+      }]
+    }
+  }
 }
 </script>
 <style lang="scss">

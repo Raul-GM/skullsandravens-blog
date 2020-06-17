@@ -1,4 +1,4 @@
-# blog-alpha
+# skulls_and_ravens
 
 > My finest Nuxt.js project
 

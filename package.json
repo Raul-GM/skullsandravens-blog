@@ -1,8 +1,8 @@
 {
-  "name": "blog-alpha",
+  "name": "skulls_and_ravens",
   "version": "1.0.0",
-  "description": "My finest Nuxt.js project",
-  "author": "Raul-GM",
+  "description": "My Skulls & Ravens - Un blog sobre Rock y Heavy Metal",
+  "author": "RaulGM",
   "private": true,
   "scripts": {
     "dev": "nuxt",
