@@ -1,0 +1,30 @@
+<template>
+  <a :href="href" :target="target" class="link">{{ label }}</a>
+</template>
+<script>
+export default {
+  props: {
+    href: {
+      type: String,
+      default: ''
+    },
+    label: {
+      type: String,
+      default: ''
+    },
+    target: {
+      type: String,
+      default: ''
+    }
+  }
+}
+</script>
+<style scoped lang="scss">
+.link {
+  color: var(--background-color);
+  transition: color var(--transition-fast) ease-in-out;
+  &:hover {
+    color: var(--alternative-color);
+  }
+}
+</style>

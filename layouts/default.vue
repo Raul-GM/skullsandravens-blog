@@ -4,13 +4,16 @@
     <div class="general-container">
       <nuxt />
     </div>
+    <Footer />
   </div>
 </template>
 <script>
 import Header from '~/components/sections/Header'
+import Footer from '~/layouts/Footer'
 export default {
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
