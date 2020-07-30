@@ -1,5 +1,5 @@
 import Mode from 'frontmatter-markdown-loader/mode'
-// import blogsEn from './content/en/blogsEn.js'
+import blogsEn from './content/en/blogsEn.js'
 import blogsEs from './content/es/blogsEs.js'
 
 export default {
@@ -53,7 +53,32 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-webfontloader'],
+  modules: [
+    'nuxt-webfontloader',
+    [
+      'nuxt-i18n',
+      {
+        lazy: true,
+        locales: [
+          {
+            name: 'Español',
+            code: 'es',
+            iso: 'es-ES',
+            file: 'es-ES.js'
+          },
+          {
+            name: 'English',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en-US.js'
+          }
+        ],
+        loadLanguagesAsync: true,
+        langDir: 'lang/',
+        defaultLocale: 'es'
+      }
+    ]
+  ],
   webfontloader: {
     custom: {
       families: ['Girassol', 'Muli', 'Prociono'],
@@ -78,8 +103,8 @@ export default {
     }
   },
   generate: {
-    routes: ['/', '404']
-      // .concat(blogsEn.map(w => `/blog/${w}`))
-      .concat(blogsEs.map((blogEs) => `es/blog/${blogEs}`))
+    routes: ['/en', '404']
+      .concat(blogsEs.map((blogEs) => `blog/${blogEs}`))
+      .concat(blogsEn.map((blogEn) => `en/blog/${blogEn}`))
   }
 }

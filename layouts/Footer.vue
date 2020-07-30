@@ -1,14 +1,13 @@
 <template>
   <footer class="footer-container">
     <p class="footer-container__row">
-      Si quieres contactar conmigo puedes hacerlo a través de mi correo
-      <!-- <a href="mailto:skullsandravensblog@gmail.com"> -->
+      {{ $t('footer.phrase1') }}
       <Link
         href="mailto:skullsandravensblog@gmail.com"
         label="skullsandravensblog@gmail.com"
       />
       <!-- </a> -->
-      y a través de mi cuenta de
+      {{ $t('footer.phrase2') }}
       <Link
         label="Instagram"
         target="_blank"
@@ -16,20 +15,14 @@
       />
     </p>
     <p class="footer-container__row">
-      &copy; {{ getYear() }} - La web ha sido diseñada y desarrollada en VueJS y
-      Nuxt por
+      &copy; {{ getYear() }} - {{ $t('footer.phrase3') }}
       <Link
         label="RaúlGM"
         target="_blank"
         href="https://twitter.com/RaulGM_83"
       />.
     </p>
-    <p class="footer-container__row">
-      Para la realización de esta web ha sido necesaria una suscripción a
-      Spotify, varios vinilos y cds, un cuaderno y muchos bolis de colores, una
-      pandemia, un ventilador, varias entradas a conciertos, mucho café y alguna
-      que otra cerveza y sobre todo, mucho &#x1F49C; y mucho &#x1F918;
-    </p>
+    <p v-html="$t('footer.phrase4')" class="footer-container__row" />
   </footer>
 </template>
 <script>

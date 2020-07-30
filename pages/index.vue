@@ -8,14 +8,16 @@
 
 <script>
 import blogsEs from '~/content/es/blogsEs.js'
+import blogsEn from '~/content/en/blogsEn.js'
 import BlogsList from '~/components/sections/BlogsList'
 
 export default {
   components: { BlogsList },
   async asyncData({ app }) {
-    const blogs = blogsEs
+    const locale = app.i18n.locale
+    const blogs = locale === 'es' ? blogsEs : blogsEn
     async function asyncImport(blogName) {
-      const post = await import(`~/content/es/blog/${blogName}.md`)
+      const post = await import(`~/content/${locale}/blog/${blogName}.md`)
       return post.attributes
     }
     const allPosts = await Promise.all(

@@ -27,7 +27,7 @@ export default {
   },
   async asyncData ({params, app}) {
     const { slug } = params
-    const post = await import(`~/content/es/blog/${slug}.md`)
+    const post = await import(`~/content/${app.i18n.locale}/blog/${slug}.md`)
     const { attributes } = post
     return {
       name: slug,

@@ -3,18 +3,20 @@
     <header class="header-container">
       <h1 class="title">{{ title }}</h1>
       <nav class="header-container_nav">
-        <NavLink :active="true" text="Inicio" />
-        <NavLink text="Women of Rock" />
+        <NavLink :active="true" :text="$t('pages.home')" />
+        <!-- <NavLink text="Women of Rock" /> -->
       </nav>
+      <LangSwitcher />
     </header>
   </fixed-header>
 </template>
 <script>
 import FixedHeader from 'vue-fixed-header'
 import NavLink from './../NavLink'
+import LangSwitcher from './../LangSwitcher'
 
 export default {
-  components: { NavLink, FixedHeader },
+  components: { NavLink, FixedHeader, LangSwitcher },
   props: {
     title: {
       type: String,

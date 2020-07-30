@@ -59,7 +59,7 @@ Los temas cayeron poco a poco. Más rápidos o más lentos, destacando para mí 
     title="Tarja está rodeada de unos músicos enormes"
 />
 
-Así llegamos a uno de los momentos de la noche. La interpretación de mi querido <important text="Planet Hell" /> de Nightwish. Casi se me cae una lagrimilla porque particularmente es una de mis canciones favoritas del grupo. Y del momentazo de la noche, pasamos al momento mágico; y no fue otro que nuestra Tarja interpretando el <important text="You and I" /> the su último album sólo con el piano. La piel de gallina...
+Así llegamos a uno de los momentos de la noche. La interpretación de mi querido <important text="Planet Hell" /> de Nightwish. Casi se me cae una lagrimilla porque particularmente es una de mis canciones favoritas del grupo. Y del momentazo de la noche, pasamos al momento mágico; y no fue otro que nuestra Tarja interpretando el <important text="You and I" /> de su último album sólo con el piano. La piel de gallina...
 
 <post-image
     source="tarja-2020/tarja 06"
@@ -77,11 +77,11 @@ Poco a poco fueron descargando los temas hasta llegar a los últimos compases de
     />
     <post-image
         source="tarja-2020/temperance 01"
-        title="El toque de la gaita tocada por este escocés fue, para mí, el mejor momento de Serpentyne"
+        title="Temperance es un grupo joven con un buen puñado de discos a sus espaldas"
     />
     <post-image
         source="tarja-2020/tarja 04"
-        title="Tarja está rodeada de unos músicos enormes"
+        title="Tarja es talento puro"
     />
     <post-image
         source="tarja-2020/tarja 07"
