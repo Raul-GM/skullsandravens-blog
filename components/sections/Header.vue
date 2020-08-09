@@ -6,7 +6,7 @@
         <NavLink :active="true" :text="$t('pages.home')" />
         <!-- <NavLink text="Women of Rock" /> -->
       </nav>
-      <LangSwitcher />
+      <LangSwitcher class="lang-switcher" />
     </header>
   </fixed-header>
 </template>
@@ -49,11 +49,21 @@ export default {
     .nav-link {
       font-size: 0.9rem;
     }
+    .lang-switcher {
+      position: relative;
+      right: 0;
+      bottom: 0;
+    }
   }
   &_nav {
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+  .lang-switcher {
+    position: absolute;
+    right: 1rem;
+    bottom: 0.3rem;
   }
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="`blog/${id}`">
+  <nuxt-link :to="urlPost">
     <div :style="{ 'background-image': `url(${mainImage})` }" class="post-card">
       <span class="post-card__date">{{ date | formateDate }}</span>
       <div class="post-card__info">
@@ -30,6 +30,10 @@ export default {
     }
   },
   computed: {
+    urlPost() {
+      const locale = this.$i18n.locale
+      return `${locale === 'en' ? 'en/' : ''}blog/${this.id}`
+    },
     mainImage() {
       if (!this.id) return null
       return require(`../assets/images/blog/${this.id}/_main.jpg`)

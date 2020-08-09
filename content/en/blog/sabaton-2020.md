@@ -1,5 +1,5 @@
 ---
-title: 'Sabaton + Apocalyptica + Amaranthe en Madrid'
+title: 'Sabaton + Apocalyptica + Amaranthe in Madrid'
 id: 'sabaton-2020'
 date: 2020-02-27T23:00:00-05:00
 categories: ['concierto']

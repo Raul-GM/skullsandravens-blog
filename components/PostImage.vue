@@ -102,7 +102,7 @@ export default {
 }
 .image-border-bottom-right::after {
   right: calc(var(--image-line-x) * -1);
-  bottom: 1px;
+  bottom: -2px;
 }
 .image-container {
   max-width: max-content;
