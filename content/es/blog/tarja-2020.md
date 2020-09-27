@@ -2,7 +2,7 @@
 title: 'Tarja + Temperance + Serpentyne en Madrid'
 id: 'tarja-2020'
 date: 2020-04-10T13:00:00-05:00
-categories: ['concierto']
+categories: ['gig']
 tags: ['tarja','in the raw', 'temperance', 'serpentyne', 'max lilja', 'doug wimbish' , 'christian kretschmar', 'timm schreiner', 'alex scholpp', 'viridian', 'alessia scolletti', 'michele guaitoli', 'marco pastorino', 'alfonso mocerino', 'luca negro']
 description: |
     Concierto de la gira "In The Raw" que unió en la sala But a Tarja + Temperance + Serpentyne el 9 de Marzo de 2020 en Madrid

@@ -1,6 +1,6 @@
 <template>
-  <nuxt-link :to="'/'">
-    <a v-bind:class="{ active: active }" class="nav-link">
+  <nuxt-link :to="`/${langPrefix}${linkTo}`">
+    <a v-bind:class="{ active: isActive }" class="nav-link">
       {{ text }}
     </a>
   </nuxt-link>
@@ -12,9 +12,21 @@ export default {
       type: String,
       default: ''
     },
-    active: {
-      type: Boolean,
-      default: false
+    linkTo: {
+      type: String,
+      default: ''
+    }
+  },
+  computed: {
+    langPrefix() {
+      const locale = this.$i18n.locale
+      return locale === 'en' ? 'en/' : ''
+    },
+    isActive() {
+      const { path } = this.$route
+      const homePaths = ['/', '/en', '/en/']
+      if (this.text === this.$t('pages.home')) return homePaths.includes(path)
+      return this.$route.path.includes(this.linkTo)
     }
   }
 }

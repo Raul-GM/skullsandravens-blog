@@ -2,7 +2,7 @@
 title: 'Jinjer + The Agonist + Khroma + Space of Variations en Madrid'
 id: 'theAgonist-jinjer'
 date: 2019-12-14T23:00:00-05:00
-categories: ['concierto']
+categories: ['gig']
 tags: ['jinjer','tatiana shmaylyuk', 'eugene abdiukhanov', 'roman ibramkhalilov', 'vlad ulasevich', 'vicky psarakis' , 'danny marino', 'chris kells', 'simon mckay', 'pascal jobin', 'khroma', 'space of variations']
 description: |
     Concierto de Jinjer + The Agonist + Khroma + Space of Variations el 11 de Diciembre de 2019 en la sala Mon de Madrid

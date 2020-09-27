@@ -2,7 +2,7 @@
 title: 'Sabaton + Apocalyptica + Amaranthe in Madrid'
 id: 'sabaton-2020'
 date: 2020-02-27T23:00:00-05:00
-categories: ['concierto']
+categories: ['gig']
 tags: ['sabaton', 'joakim brodém', 'pär sundström', 'chris rörland', 'tommy johason', 'hannes van dahl', 'the great war', 'apocalyptica', 'eicca toppinen', 'paavo lötjönen', 'perttu kivilaakso', 'mikko sirén', 'cell-0', 'amaranthe', 'elize ryd', 'olof mörck', 'henrik englund', 'nils molin', 'johan andreassen', 'morten løwe sørensen']
 description: |
     Sabaton + Apocalyptica + Amaranthe gig at February 5, 2020 at the Palacio de Vistalegre in Madrid

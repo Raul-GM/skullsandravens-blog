@@ -34,6 +34,7 @@ export default {
       id: attributes.id,
       title: attributes.title,
       description: attributes.description,
+      categories: attributes.categories,
       renderFunc: post.vue.render,
       staticRenderFuncs: post.vue.staticRenderFns,
     }

@@ -31,8 +31,8 @@ export default {
   },
   computed: {
     urlPost() {
-      const locale = this.$i18n.locale
-      return `${locale === 'en' ? 'en/' : ''}blog/${this.id}`
+      // const locale = this.$i18n.locale
+      return `blog/${this.id}`
     },
     mainImage() {
       if (!this.id) return null

@@ -2,7 +2,7 @@
 title: 'Eluveitie + Lacuna Coil + Infected Rain en Madrid'
 id: 'infectedRain-lacunaCoil-eluveitie'
 date: 2019-12-01T21:32:00-05:00
-categories: ['concierto']
+categories: ['gig']
 tags: ['eluveitie', 'lacuna coil', 'infected rain', 'lena scissorhands', 'cristina scabbia', 'andrea ferro', 'maki', 'endorphin', 'black anima', 'ategnatos', 'black box', 'vistalegre']
 description: |
     Concierto de Eluveitie + Lacuna Coil + Infected Rain el 28 de Noviembre de 2019 en la sala Black Box del Palacio de Vistalegre de Madrid

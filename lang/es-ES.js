@@ -1,6 +1,8 @@
 export default {
   pages: {
-    home: 'Inicio'
+    home: 'Inicio',
+    concerts: 'Conciertos',
+    reviews: 'Reviews'
   },
   footer: {
     phrase1:
