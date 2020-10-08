@@ -87,6 +87,7 @@ export default {
   grid-template-columns: var(--post-cols);
   grid-template-rows: auto;
   padding: 1rem 0 4rem;
+  text-align: left;
   & > * {
     grid-column: 3 / -3;
     justify-self: center;
@@ -123,5 +124,9 @@ export default {
     object-fit: cover;
     height: 20rem;
   }
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 </style>

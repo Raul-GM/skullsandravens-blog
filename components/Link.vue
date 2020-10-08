@@ -23,8 +23,12 @@ export default {
 .link {
   color: var(--background-color);
   transition: color var(--transition-fast) ease-in-out;
-  &:hover {
+  &:hover,
+  &.dark:hover {
     color: var(--alternative-color);
+  }
+  &.dark {
+    color: var(--text-color);
   }
 }
 </style>

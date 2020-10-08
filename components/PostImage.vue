@@ -18,18 +18,35 @@
         <img :src="imageSource" class="image-modal_image" />
       </div>
     </div>
+    <p v-if="!footerLink" class="image-footer">{{ footer }}</p>
+    <Link
+      v-if="footerLink"
+      :href="footerLink"
+      :label="footer"
+      target="_blank"
+      class="image-footer dark"
+    />
   </div>
 </template>
 <script>
 import ImageItem from './ImageItem'
+import Link from './Link'
 export default {
-  components: { ImageItem },
+  components: { ImageItem, Link },
   props: {
     source: {
       type: String,
       default: ''
     },
     title: {
+      type: String,
+      default: ''
+    },
+    footer: {
+      type: String,
+      default: ''
+    },
+    footerLink: {
       type: String,
       default: ''
     }
@@ -170,6 +187,10 @@ export default {
       padding: 1rem;
       width: auto;
     }
+  }
+  &-footer {
+    font-size: 0.7rem;
+    padding: 3px 0;
   }
 }
 </style>
