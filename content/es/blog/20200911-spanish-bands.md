@@ -1,7 +1,7 @@
 ---
 title: '5 bandas españolas a las que no perder la pista'
 id: '20200911-spanish-bands'
-date: 2020-08-15T16:40:00-05:00
+date: 2020-10-09T16:40:00-05:00
 categories: []
 tags: []
 description: |
