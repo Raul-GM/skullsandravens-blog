@@ -12,6 +12,23 @@ import BlogsList from '~/components/sections/BlogsList'
 
 export default {
   components: { BlogsList },
+  head() {
+    return {
+      title: 'concerts',
+      meta: [
+        {
+          hid: 'title',
+          name: 'title',
+          content: 'Concerts'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          description: 'Concerts section. Reviews of all the concerts'
+        }
+      ]
+    }
+  },
   async asyncData({ app }) {
     const locale = app.i18n.locale
     const blogs = locale === 'es' ? blogsEs : blogsEn

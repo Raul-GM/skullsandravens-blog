@@ -42,15 +42,15 @@ export default {
   head() {
     return {
       title: this.title,
-      meta: [{
-        hid: 'author',
-        name: 'author',
-        content: 'RaúlGM'
-      },{
-        hid: 'description',
-        name: 'description',
-        content: this.description
-      }]
+      meta: [
+        { hid: 'author', name: 'author', content: 'RaúlGM' },
+        { hid: 'description', name: 'description', content: this.description },
+        { hid: 'og:title', property: 'og:title', content: this.title },
+        { hid: 'og:description', property: 'og:description', content: this.description },
+        { hid: 'og:url', property: 'og:url', content: `www.skullsandravens.com${this.$route.fullPath}` },
+        { hid: 'og:image', property: 'og:image', content: this.mainImage },
+        { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' }
+      ]
     }
   }
 }

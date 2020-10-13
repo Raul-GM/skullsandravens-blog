@@ -12,9 +12,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       {
+        hid: 'description',
         name: 'description',
         content:
-          'Un blog sobre Rock y Heavy Metal. Se hablará de los conciertos a los que he asistido. Habrá una sección de mujeres de la industria del Metal y mucho más esta por venir'
+          'Un blog sobre Rock y Heavy Metal. Se hablará de los conciertos a los que he asistido. Habrá una sección de mujeres de la industria del Metal. Entrevistas, reviews y mucho más'
       },
       { name: 'robots', content: 'index, follow' },
       {
@@ -55,6 +56,8 @@ export default {
    */
   modules: [
     'nuxt-webfontloader',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/google-analytics',
     [
       'nuxt-i18n',
       {
@@ -79,6 +82,10 @@ export default {
       }
     ]
   ],
+  googleAnalytics: {
+    id: '169598968',
+    dev: false
+  },
   webfontloader: {
     custom: {
       families: ['Girassol', 'Muli', 'Prociono'],
