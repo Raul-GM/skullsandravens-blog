@@ -113,5 +113,8 @@ export default {
     routes: ['/en', '404']
       .concat(blogsEs.map((blogEs) => `blog/${blogEs}`))
       .concat(blogsEn.map((blogEn) => `en/blog/${blogEn}`))
+  },
+  sitemap: {
+    hostname: 'https://www.skullsandravens.com'
   }
 }
