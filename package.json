@@ -22,7 +22,7 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "frontmatter-markdown-loader": "^3.1.0",
     "nuxt": "^2.11.0",
     "nuxt-i18n": "^6.12.2",
@@ -44,7 +44,7 @@
     "lint-staged": "^8.2.1",
     "node-sass": "^4.14.1",
     "prettier": "^1.16.4",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "sass-loader": "^8.0.2"
   }
 }
