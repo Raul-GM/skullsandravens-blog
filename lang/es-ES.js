@@ -2,7 +2,8 @@ export default {
   pages: {
     home: 'Inicio',
     concerts: 'Conciertos',
-    reviews: 'Reviews'
+    reviews: 'Reviews',
+    news: 'Noticias'
   },
   footer: {
     phrase1:

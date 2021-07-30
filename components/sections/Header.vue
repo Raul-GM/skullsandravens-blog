@@ -4,6 +4,7 @@
       <h1 class="title">{{ title }}</h1>
       <nav class="header-container_nav">
         <NavLink :text="$t('pages.home')" />
+        <NavLink :text="$t('pages.news')" link-to="news" />
         <NavLink :text="$t('pages.concerts')" link-to="concerts" />
         <NavLink :text="$t('pages.reviews')" link-to="reviews" />
         <!-- <NavLink text="Women of Rock" /> -->

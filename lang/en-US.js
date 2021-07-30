@@ -2,7 +2,8 @@ export default {
   pages: {
     home: 'Home',
     concerts: 'Gigs',
-    reviews: 'Reviews'
+    reviews: 'Reviews',
+    news: 'News'
   },
   footer: {
     phrase1: 'You can contact with me by email',
