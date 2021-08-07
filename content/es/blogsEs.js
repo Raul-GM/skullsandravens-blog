@@ -1,4 +1,5 @@
 export default [
+  '20210802-week-news',
   '20210730-week-news',
   '20201230-bestOf-2020',
   '20201229-2020-year-of-silence',

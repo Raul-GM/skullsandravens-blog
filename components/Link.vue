@@ -30,5 +30,8 @@ export default {
   &.dark {
     color: var(--text-color);
   }
+  &.underline {
+    text-decoration: underline;
+  }
 }
 </style>
