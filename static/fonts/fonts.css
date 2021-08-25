@@ -1,21 +1,57 @@
 @font-face {
-	font-family: "Girassol";
+	font-family: "Amalta";
     font-style: normal;
     font-display: swap;
 	font-weight: 400;
-    src: url("Girassol-Regular.ttf") format("truetype");
+    src: url("Amalta.ttf") format("truetype");
 }
 @font-face {
-	font-family: "Muli";
+	font-family: "Harbour";
     font-style: normal;
     font-display: swap;
 	font-weight: 400;
-    src: url("Muli-VariableFont.ttf") format("truetype");
+    src: url("HarbourRegular.ttf") format("truetype");
 }
 @font-face {
-	font-family: "Prociono";
+	font-family: "Harbour";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 800;
+    src: url("HarbourBold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Harbour";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 200;
+    src: url("HarbourLight.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ITCSerifGothic";
     font-style: normal;
     font-display: swap;
 	font-weight: 400;
-    src: url("Prociono-Regular.ttf") format("truetype");
+    src: url("itc-serif-gothic-lt-regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ITCSerifGothic";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 600;
+    src: url("itc-serif-gothic-lt-bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ITCSerifGothic";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 700;
+    src: url("itc-serif-gothic-lt-heavy.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "ITCSerifGothic";
+    font-style: normal;
+    font-display: swap;
+	font-weight: 200;
+    src: url("itc-serif-gothic-lt-light.ttf") format("truetype");
 }

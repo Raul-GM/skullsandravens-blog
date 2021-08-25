@@ -82,7 +82,7 @@ export default {
     width: 100%;
     &-title {
       font-family: var(--font-subtitle);
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 600;
       padding: 0.5rem 1rem;
       text-align: center;

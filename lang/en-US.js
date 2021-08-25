@@ -1,6 +1,6 @@
 export default {
   pages: {
-    home: 'Home',
+    home: 'All Articles',
     concerts: 'Gigs',
     reviews: 'Reviews',
     news: 'News'

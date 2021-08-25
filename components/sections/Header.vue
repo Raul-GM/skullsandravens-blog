@@ -1,10 +1,23 @@
 <template>
   <fixed-header>
     <header class="header-container">
-      <h1 class="title">{{ title }}</h1>
       <nav class="header-container_nav">
         <NavLink :text="$t('pages.home')" />
         <NavLink :text="$t('pages.news')" link-to="news" />
+        <img
+          :data-url="logoSource"
+          :src="logoSource"
+          alt="Skulls N Ravens Logo"
+          title="Skulls N Ravens"
+          class="logo-header"
+        />
+        <img
+          :data-url="logoSourceSmall"
+          :src="logoSourceSmall"
+          title="Skulls N Ravens"
+          alt="Skulls N Ravens Logo small"
+          class="logo-header__small"
+        />
         <NavLink :text="$t('pages.concerts')" link-to="concerts" />
         <NavLink :text="$t('pages.reviews')" link-to="reviews" />
         <!-- <NavLink text="Women of Rock" /> -->
@@ -25,14 +38,23 @@ export default {
       type: String,
       default: ''
     }
+  },
+  computed: {
+    logoSource() {
+      return require(`~/assets/images/LogoGrandeTransRosa.png`)
+    },
+    logoSourceSmall() {
+      return require(`~/assets/images/LogoSmall.png`)
+    }
   }
 }
 </script>
 <style lang="scss">
 .header-container {
   align-items: center;
-  background-color: var(--text-color);
-  color: var(--background-color);
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--skull);
+  color: var(--raven);
   display: flex;
   flex-direction: column;
   left: 0;
@@ -41,37 +63,52 @@ export default {
   position: fixed;
   right: 0;
   top: 0;
-  transition: var(--transition-fast) max-height;
+  //transition: var(--transition-fast) max-height;
   z-index: 10;
   &.vue-fixed-header--isFixed {
-    flex-direction: row;
     max-height: var(--header-height-fixed);
     .title {
       font-size: 1.2rem;
     }
-    .nav-link {
-      font-size: 0.9rem;
+    .logo-header {
+      display: none;
     }
-    .lang-switcher {
-      position: relative;
-      right: 0;
-      bottom: 0;
+    .logo-header__small {
+      display: block;
+      height: 60px;
+      margin: 0 1rem;
     }
   }
   &_nav {
+    align-items: flex-end;
     display: flex;
     justify-content: center;
+    max-width: 800px;
     width: 100%;
   }
   .lang-switcher {
     position: absolute;
     right: 1rem;
     bottom: 0.3rem;
+    @media (max-width: 900px) {
+      top: 0.3rem;
+      bottom: unset;
+    }
   }
 }
 
 .title {
   font-family: var(--font-title);
   font-size: 2.2em;
+}
+
+.logo-header {
+  height: 160px;
+  &__small {
+    display: none;
+  }
+  @media (max-width: 900px) {
+    height: 120px;
+  }
 }
 </style>

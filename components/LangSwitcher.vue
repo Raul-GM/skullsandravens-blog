@@ -31,7 +31,7 @@ export default {
 <style scoped lang="scss">
 .lang-switcher-select {
   appearance: none;
-  background-color: var(--text-color);
+  background-color: var(--background-color);
   border: 0;
   border-bottom: 1px solid var(--alternative-color);
   color: var(--alternative-color);

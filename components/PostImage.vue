@@ -90,7 +90,7 @@ export default {
 .image-border-bottom-right::after,
 .image-border-top-left::before,
 .image-border-top-left::after {
-  background-color: var(--primary-color);
+  background-color: var(--alternative-color);
   content: '';
   position: absolute;
   transition: transform var(--transition-fast);

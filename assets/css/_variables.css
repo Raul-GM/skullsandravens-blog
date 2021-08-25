@@ -1,5 +1,5 @@
 :root {
-  --header-height: 100px;
-  --header-height-fixed: 60px;
+  --header-height: 200px;
+  --header-height-fixed: 75px;
   --transition-fast: 0.2s;
 }

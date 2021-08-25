@@ -21,4 +21,10 @@ export default {
 .general-container {
   margin-top: var(--header-height-fixed);
 }
+.main-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 9em 1em;
+}
 </style>
