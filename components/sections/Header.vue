@@ -1,6 +1,14 @@
 <template>
   <fixed-header>
     <header class="header-container">
+      <span class="mobile-hamburguer">Menu</span>
+      <img
+        :data-url="logoInlineSource"
+        :src="logoInlineSource"
+        alt="Skulls N Ravens Logo"
+        title="Skulls N Ravens"
+        class="logo-header logo-mobile"
+      />
       <nav class="header-container_nav">
         <NavLink :text="$t('pages.home')" />
         <NavLink :text="$t('pages.news')" link-to="news" />
@@ -45,6 +53,9 @@ export default {
     },
     logoSourceSmall() {
       return require(`~/assets/images/LogoSmall.png`)
+    },
+    logoInlineSource() {
+      return require('~/assets/images/LogoInline.png')
     }
   }
 }
@@ -85,6 +96,9 @@ export default {
     justify-content: center;
     max-width: 800px;
     width: 100%;
+    @media (max-width: 700px) {
+      display: none;
+    }
   }
   .lang-switcher {
     position: absolute;
@@ -104,8 +118,13 @@ export default {
 
 .logo-header {
   height: 160px;
-  &__small {
+  &__small,
+  &.logo-mobile {
     display: none;
+    @media (max-width: 700px) {
+      display: block;
+      height: 50px;
+    }
   }
   @media (max-width: 900px) {
     height: 120px;
