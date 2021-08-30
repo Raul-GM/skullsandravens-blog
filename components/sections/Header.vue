@@ -1,7 +1,19 @@
 <template>
   <fixed-header>
     <header class="header-container">
-      <span class="mobile-hamburguer">Menu</span>
+      <div @click="onMenuButtonClick()" class="mobile-hamburguer">
+        <MenuButton />
+      </div>
+      <div
+        @click="onMenuOptionClick()"
+        v-bind:class="{ 'mobile-menu-open': isMenuOpen }"
+        class="mobile-menu"
+      >
+        <NavLink :text="$t('pages.home')" />
+        <NavLink :text="$t('pages.news')" link-to="news" />
+        <NavLink :text="$t('pages.concerts')" link-to="concerts" />
+        <NavLink :text="$t('pages.reviews')" link-to="reviews" />
+      </div>
       <img
         :data-url="logoInlineSource"
         :src="logoInlineSource"
@@ -38,13 +50,19 @@
 import FixedHeader from 'vue-fixed-header'
 import NavLink from './../NavLink'
 import LangSwitcher from './../LangSwitcher'
+import MenuButton from './../MenuButton'
 
 export default {
-  components: { NavLink, FixedHeader, LangSwitcher },
+  components: { NavLink, FixedHeader, LangSwitcher, MenuButton },
   props: {
     title: {
       type: String,
       default: ''
+    }
+  },
+  data() {
+    return {
+      isMenuOpen: false
     }
   },
   computed: {
@@ -56,6 +74,14 @@ export default {
     },
     logoInlineSource() {
       return require('~/assets/images/LogoInline.png')
+    }
+  },
+  methods: {
+    onMenuButtonClick() {
+      this.isMenuOpen = !this.isMenuOpen
+    },
+    onMenuOptionClick() {
+      this.isMenuOpen = false
     }
   }
 }
@@ -81,7 +107,7 @@ export default {
     .title {
       font-size: 1.2rem;
     }
-    .logo-header {
+    .logo-header:not(.logo-mobile) {
       display: none;
     }
     .logo-header__small {
@@ -98,6 +124,40 @@ export default {
     width: 100%;
     @media (max-width: 700px) {
       display: none;
+    }
+  }
+  .mobile-hamburguer {
+    display: none;
+    @media (max-width: 700px) {
+      display: block;
+      position: absolute;
+      left: 1rem;
+    }
+  }
+  .mobile-menu {
+    align-items: center;
+    background-color: var(--background-color);
+    border-top: 1px solid var(--skull);
+    display: flex;
+    flex-direction: column;
+    left: -100vw;
+    padding: 3rem;
+    position: absolute;
+    right: 0;
+    top: calc(40px + (0.8rem * 2)); //pasar a variables
+    transition: left 0.5s cubic-bezier(0.5, 0.9, 0, 0.9);
+    height: 100vh;
+    width: 100vw;
+    @media (min-width: 700px) {
+      display: none;
+    }
+    &-open {
+      left: 0;
+    }
+    .nav-link {
+      flex: unset;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
     }
   }
   .lang-switcher {
@@ -123,7 +183,7 @@ export default {
     display: none;
     @media (max-width: 700px) {
       display: block;
-      height: 50px;
+      height: 40px;
     }
   }
   @media (max-width: 900px) {

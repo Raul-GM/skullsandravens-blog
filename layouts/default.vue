@@ -17,7 +17,7 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="scss">
 .general-container {
   margin-top: var(--header-height-fixed);
 }
@@ -26,5 +26,8 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 9em 1em;
+  @media (max-width: 700px) {
+    padding: 4em 1em;
+  }
 }
 </style>
