@@ -2,7 +2,7 @@
   <fixed-header>
     <header class="header-container">
       <div @click="onMenuButtonClick()" class="mobile-hamburguer">
-        <MenuButton />
+        <MenuButton :isOpen="isMenuOpen" />
       </div>
       <div
         @click="onMenuOptionClick()"
@@ -132,6 +132,8 @@ export default {
       display: block;
       position: absolute;
       left: 1rem;
+      top: 50%;
+      transform: translate(0, -50%);
     }
   }
   .mobile-menu {
@@ -167,6 +169,11 @@ export default {
     @media (max-width: 900px) {
       top: 0.3rem;
       bottom: unset;
+    }
+    @media (max-width: 700px) {
+      top: 50%;
+      bottom: unset;
+      transform: translate(0, -50%);
     }
   }
 }
