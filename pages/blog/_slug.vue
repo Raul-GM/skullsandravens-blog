@@ -59,10 +59,9 @@ export default {
 :root {
   --post-cols: 1.5rem 0 auto 0 1.5rem;
   --bg-size: cover;
-  --bg-position: 50px;
+  --bg-position: 55px;
   --image-gallery-cols: 1;
 }
-
 @media (min-width: 550px) {
   :root {
     --post-cols: 5rem 0 auto 0 5rem;
@@ -95,13 +94,23 @@ export default {
 }
 .post-header__image {
   display: block;
-  background-size: var(--bg-size);
-  background-repeat: no-repeat;
-  background-position: center calc(var(--header-height) - var(--bg-position));
   background-attachment: fixed;
+  background-position: center calc(var(--header-height) - var(--bg-position));
+  background-repeat: no-repeat;
+  background-size: var(--bg-size);
   height: 55vh;
   position: relative;
   width: 100%;
+  @media (max-width: 700px) {
+    background-position: center var(--header-height-fixed);
+    background-size: 100%;
+    height: 40vh;
+  }
+}
+@media (min-width: 700px) {
+  .vue-fixed-header--isFixed + .general-container .post-header__image {
+    background-position: center var(--header-height-fixed);
+  }
 }
 .post-header__title {
   background-color: var(--background-color);
@@ -110,7 +119,6 @@ export default {
   position: sticky;
   text-align: center;
   top: var(--header-height-fixed);
-  z-index: 50;
 }
 .image-gallery {
   align-items: center;

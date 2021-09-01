@@ -4,3 +4,8 @@
   --transition-fast: 0.2s;
   --animation-menu-time: 0.3s;
 }
+@media (max-width: 700px) {
+  :root {
+    --header-height-fixed: 70px;
+  }
+}

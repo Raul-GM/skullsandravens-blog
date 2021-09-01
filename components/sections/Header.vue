@@ -102,6 +102,10 @@ export default {
   top: 0;
   //transition: var(--transition-fast) max-height;
   z-index: 10;
+  @media (max-width: 700px) {
+    max-height: var(--header-height-fixed);
+    height: var(--header-height-fixed);
+  }
   &.vue-fixed-header--isFixed {
     max-height: var(--header-height-fixed);
     .title {

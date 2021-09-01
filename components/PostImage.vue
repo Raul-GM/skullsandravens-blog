@@ -122,8 +122,11 @@ export default {
   bottom: -2px;
 }
 .image-container {
+  display: block;
   max-width: max-content;
+  position: relative;
   width: 100%;
+  z-index: -1;
   &:hover {
     .image-border-bottom-right {
       &::after {
