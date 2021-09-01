@@ -119,6 +119,7 @@ export default {
   position: sticky;
   text-align: center;
   top: var(--header-height-fixed);
+  z-index: 1;
 }
 .image-gallery {
   align-items: center;

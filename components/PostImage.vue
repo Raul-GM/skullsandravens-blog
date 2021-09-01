@@ -126,7 +126,7 @@ export default {
   max-width: max-content;
   position: relative;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
   &:hover {
     .image-border-bottom-right {
       &::after {
