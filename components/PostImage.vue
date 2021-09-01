@@ -1,11 +1,21 @@
 <template>
-  <div>
-    <div class="image-container">
-      <div class="image-border-bottom-right">
-        <a @click="toggleModalIsOpen()" class="image-border-top-left">
-          <ImageItem :title="title" :source="thumbSource" class="image" />
-        </a>
+  <div class="image-canvas">
+    <div>
+      <div class="image-container">
+        <div class="image-border-bottom-right">
+          <a @click="toggleModalIsOpen()" class="image-border-top-left">
+            <ImageItem :title="title" :source="thumbSource" class="image" />
+          </a>
+        </div>
+        <p v-if="!footerLink" class="image-footer">{{ footer }}</p>
       </div>
+      <Link
+        v-if="footerLink"
+        :href="footerLink"
+        :label="footer"
+        target="_blank"
+        class="image-footer dark"
+      />
     </div>
     <div v-if="isModalOpen" class="image-modal">
       <a
@@ -18,14 +28,6 @@
         <img :src="imageSource" class="image-modal_image" />
       </div>
     </div>
-    <p v-if="!footerLink" class="image-footer">{{ footer }}</p>
-    <Link
-      v-if="footerLink"
-      :href="footerLink"
-      :label="footer"
-      target="_blank"
-      class="image-footer dark"
-    />
   </div>
 </template>
 <script>
@@ -75,6 +77,10 @@ export default {
 }
 </script>
 <style lang="scss">
+.image-canvas {
+  display: flex;
+  justify-content: center;
+}
 .image-border-bottom-right {
   --border-size: 3px;
   --image-line-x: 10px;

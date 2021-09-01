@@ -91,6 +91,9 @@ export default {
     grid-column: 3 / -3;
     justify-self: center;
   }
+  & > p {
+    width: 100%;
+  }
 }
 .post-header__image {
   display: block;
