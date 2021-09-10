@@ -1,4 +1,5 @@
 export default [
+  '20210906-week-news',
   '20210823-week-news',
   '20210809-week-news',
   '20210802-week-news',
