@@ -23,7 +23,7 @@ Primero cayó el tema homónimo de su último álbum <important text="Push the B
     title="Dead Tree Seeds"
 />
 
-Para terminar su show volaron <important text="White Wolf" />, <important text="Wailling the Wall" />, <important text="Abjection" /> y <important text="Hommage to the Tash" /> culminando su actuación con el cover the <important text="Testament" />, <important text="The Preacher" />.
+Para terminar su show volaron <important text="Fangs of the White Wolf" />, <important text="Wailing Wall" />, <important text="Abjection" /> y <important text="Homage to Trash" /> culminando su actuación con el cover the <important text="Testament" />, <important text="The Preacher" />.
 
 <post-image
     source="20220829-concert-nervosa/Nervosa_DeadTreeSeeds-01"
@@ -65,7 +65,7 @@ Creo que me voy a repetir en esta cuestión durante la crónica, pero qué exper
     title="Nervosa"
 />
 
-<important text="Masked Betrayer" />, <important text="Perpetual Chaos" /> y <important text="Blood Eagle" /> no dieron respiro a un público entregado y con ganas de fiesta. Esto se demostró en el Moshpit que se creo en mitad de la sala mientras sonaba <important text="Into the Moshpit" />. Ya digo que resulta increíble ver estas demostraciones en una sala tan pequeña. La banda llegó a la recta final de su show con <important text="Rebel Soul" />, <important text="Guided by Evil" /> y <important text="Under the Ruins" />.
+<important text="Masked Betrayer" />, <important text="Perpetual Chaos" /> y <important text="Blood Eagle" /> no dieron respiro a un público entregado y con ganas de fiesta. Esto se demostró en el Moshpit que se creo en mitad de la sala mientras sonaba <important text="Into Moshpit" />. Ya digo que resulta increíble ver estas demostraciones en una sala tan pequeña. La banda llegó a la recta final de su show con <important text="Rebel Soul" />, <important text="Guided by Evil" /> y <important text="Under Ruins" />.
 
 <post-image
     source="20220829-concert-nervosa/Nervosa_DeadTreeSeeds-14"
@@ -113,3 +113,7 @@ Desde luego, gracias a este concierto me he vuelto más fan del <important text=
         title="Nervosa"
     />
 </div>
+
+## Setlist del concierto
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5e4xRIr6bzQf0V09wQlRDi?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
