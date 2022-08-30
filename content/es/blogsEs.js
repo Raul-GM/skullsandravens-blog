@@ -1,4 +1,5 @@
 export default [
+  '20220829-concert-nervosa',
   '20220614-concert-barbara-black-corvusv',
   '20210906-week-news',
   '20210823-week-news',
