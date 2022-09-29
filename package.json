@@ -24,7 +24,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "elliptic": "^6.5.4",
     "frontmatter-markdown-loader": "^3.1.0",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.15.8",
     "nuxt-i18n": "^6.12.2",
     "nuxt-webfontloader": "^1.1.0",
     "path": "^0.12.7",
