@@ -31,7 +31,10 @@
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",
     "sass": "^1.55.0",
-    "vue-fixed-header": "^3.2.14"
+    "vue-fixed-header": "^3.2.14",
+    "ejs": ">=3.1.7",
+    "minimist": ">=1.2.6",
+    "ansi-regex": ">=5.0.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
