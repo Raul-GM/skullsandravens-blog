@@ -43,7 +43,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^2.6.0",
     "lint-staged": "^8.2.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.3",
     "prettier": "^1.16.4",
     "pug": "^3.0.1",
     "sass-loader": "^8.0.2"
