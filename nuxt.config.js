@@ -107,7 +107,8 @@ export default {
           mode: [Mode.VUE_RENDER_FUNCTIONS]
         }
       })
-    }
+    },
+    postcss: null
   },
   generate: {
     routes: ['/en', '404']
