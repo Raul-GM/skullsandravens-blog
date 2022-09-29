@@ -30,7 +30,6 @@
     "path": "^0.12.7",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",
-    "sass": "^1.55.0",
     "vue-fixed-header": "^3.2.14",
     "ejs": ">=3.1.7",
     "minimist": ">=1.2.6",
@@ -46,9 +45,9 @@
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^2.6.0",
     "lint-staged": "^8.2.1",
-    "node-sass": "^7.0.3",
     "prettier": "^1.16.4",
     "pug": "^3.0.1",
+    "sass": "^1.55.0",
     "sass-loader": "^8.0.2"
   }
 }
