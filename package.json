@@ -1,7 +1,7 @@
 {
   "name": "skulls_and_ravens",
   "version": "1.0.0",
-  "description": "My Skulls & Ravens - Un blog sobre Rock y Heavy Metal",
+  "description": "Skulls & Ravens - Un blog sobre Rock y Heavy Metal",
   "author": "RaulGM",
   "private": true,
   "scripts": {
@@ -30,6 +30,7 @@
     "path": "^0.12.7",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",
+    "sass": "^1.55.0",
     "vue-fixed-header": "^3.2.14"
   },
   "devDependencies": {
