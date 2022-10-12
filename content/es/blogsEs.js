@@ -1,4 +1,5 @@
 export default [
+  '20220930-concert-dark-moor-arwen',
   '20220916-concert-barbara-black-lex-luger-eon',
   '20220829-concert-nervosa',
   '20220614-concert-barbara-black-corvusv',
