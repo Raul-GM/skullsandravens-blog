@@ -117,7 +117,7 @@ export default {
 }
 .post-header__title {
   background-color: var(--background-color);
-  font-size: 1.8em;
+  font-size: 1.5em;
   padding: 1rem 0.5rem;
   position: sticky;
   text-align: center;

@@ -8,16 +8,19 @@ description: |
     Dark Moor y Arwen cogen impulso de nuevo tras su concierto el 30 de septiembre en la sala Cool
 ---
 
-Septiembre echaba el cerrojo con un concierto muy especial en lo personal y en el mundo del rock y del metal estatal. Dos bandas veteranas, hermanas y con una trayectoria que a mi modo de ver, y a pesar de que son dos bandas muy queridas y que mueven mucha gente, merecen una mucha mejor suerte de la que han obtenido.
+Septiembre echaba el cerrojo con un concierto muy especial en lo personal y en el mundo del rock y del metal estatal. Dos bandas veteranas, hermanas y con una trayectoria que a mi modo de ver, y a pesar de que son dos bandas muy queridas y que mueven mucha gente, merecen mucha mejor suerte de la que han obtenido.
 
-La sala <important text="Cool" /> de Madrid se vestía de gala para presentar un nuevo punto de partida para <important text="Arwen" /> y <important text="Dark Moor" /> y un servidor tuvo la suerte de haber llegado a tiempo para coger una de las entradas premium que aseguraban el acceso a la sala una hora antes, descuento en la tienda, un pase VIP y una de las nuevas púas que presentan el nuevo tema de los de <important text="Enrik" /> que tienen un diseño brutal. Pero luego hablaremos de ello. Esta primera hora la pasé charlando con <important text="Diana" /> ,en el mismo sitio donde charlamos en 2019, el puesto de merchandising, haciendo un repaso de estos 3 años de locura y cómo nos han afectado. También aproveché para sufrir una pérdida de riñón al pagar seis pavos por un tercio de Budweiser en la barra de la sala.
+La sala <important text="Cool" /> de Madrid se vestía de gala para presentar un nuevo punto de partida para <important text="Arwen" /> y <important text="Dark Moor" /> y un servidor tuvo la suerte de haber llegado a tiempo para coger una de las entradas premium que aseguraban el acceso a la sala una hora antes, descuento en la tienda, un pase VIP y una de las nuevas púas que presentan el nuevo tema de los de <important text="Enrik" /> que tienen un diseño brutal de la mano de <Link href="https://www.instagram.com/medusadollmaker/" label="Medusa Dollmaker" target="_blank" class="dark underline" />. 
+
+<!-- Pero luego hablaremos de ello. Esta primera hora la pasé charlando con <important text="Diana" /> ,en el mismo sitio donde charlamos en 2019, el puesto de merchandising, haciendo un repaso de estos 3 años de locura y cómo nos han afectado. También aproveché para sufrir una pérdida de riñón al pagar seis pavos por un tercio de Budweiser en la barra de la sala.
+-->
 
 <post-image
     source="20220930-concert-dark-moor-arwen/DarkMoorArwen-02"
     title="José Garrido"
 />
 
-<important text="Arwen" /> comenzaron mientras con las pruebas de sonido. Tocaron dos o tres temas. Tiempo más que suficiente para ver el estado de la voz de <important text="José Garrido" /> y el buen rollo que se respira en la banda. Vuellta al backstage, apertura de puertas, gran entrada en estas primeras horas y todo listo para comenzar.
+Mientras me dejaba un riñón con una Budweiser a seis pavos (¿?) el tercio, <important text="Arwen" /> comenzaron con las pruebas de sonido. Tocaron dos o tres temas. Tiempo más que suficiente para ver el estado de la voz de <important text="José Garrido" /> y el buen rollo que se respira en la banda. Vuellta al backstage, apertura de puertas, gran entrada en estas primeras horas y todo listo para comenzar.
 
 <post-image
     source="20220930-concert-dark-moor-arwen/DarkMoorArwen-03"
@@ -107,10 +110,12 @@ He querido cerrar la crónica porque se me estaba haciendo eterna y seguro que s
 ## Coda!
 
 Una vez más alucino con el trabajo que hace la prensa profesional (no como este blog de andar por casa) para cubrir los conciertos, captar los mejores momentos y todo eso sin molestar al resto del público. Esa noche pude aprender mucho y compartir parcela con una compañera que tiene un blog muy chulo y que está haciendo un trabajo increíble y además ha dejado una crónica y unos vídeos muy interesantes de esa noche. Si podéis, echadle un ojo que merece la pena <Link href="https://heavymettlemagazine.wordpress.com/" label="Heavy Mettle Magazine" target="_blank" class="dark underline" />
-
+<!--
 ## Bises!
 
 Ya termino. Lo juro. Pero me gustaría destacar el increíble trabajo de la artista que está detrás de la portada del disco de <important text="Origins" /> y del arte del cartel del concierto, que luego fue serigrafiado en las púas, y representa el tema de <important text="Vivaldi Summer Storm" />. Se trata de <Link href="https://www.instagram.com/medusadollmaker/" label="Medusa Dollmaker" target="_blank" class="dark underline" />
+
+-->
 
 ## Más fotos
 
