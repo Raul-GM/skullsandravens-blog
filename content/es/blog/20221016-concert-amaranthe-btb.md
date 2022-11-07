@@ -19,7 +19,7 @@ Hora de entrar y el perenne equipo de seguridad de la sala (llevo años disfruta
     title="Adrian"
 />
 
-<important text="Melissa Bonny" /> salió sobre el escenario precedida de su banda, <important text="Ad Infinitum" /> para interpretar su primera vez en España. Muchas ganas tenía de ver a la banda suiza que tan buenos momentos me han dado en estoscuatro años de vida con sus 2+1 discos (muy bonito el <important text="Chapter I: Revisited" /> con las versiones en acústico, pero con menos interés para mí personalmente). La actitud de la banda fue inmejorable aunque, en mi caso, el sonido no acompañó. Desde mi posición, el poderío vocal de <important text="Melissa" /> no se pudo apreciar (aunque por lo que he leído y he comentado, otra gente si lo escuchó bien desde otros puntos de la sala).
+<important text="Melissa Bonny" /> salió sobre el escenario precedida de su banda, <important text="Ad Infinitum" /> para interpretar su primera vez en España. Muchas ganas tenía de ver a la banda suiza que tan buenos momentos me han dado en estos cuatro años de vida con sus 2+1 discos (muy bonito el <important text="Chapter I: Revisited" /> con las versiones en acústico, pero con menos interés para mí personalmente). La actitud de la banda fue inmejorable aunque, en mi caso, el sonido no acompañó. Desde mi posición, el poderío vocal de <important text="Melissa" /> no se pudo apreciar (aunque por lo que he leído y he comentado, otra gente si lo escuchó bien desde otros puntos de la sala).
 
 <post-image
     source="20221016-concert-amaranthe-btb/AdInfinitum-06"
@@ -63,14 +63,14 @@ Era el momento de las <important text="Butcher Babies" />. A pesar de que no ter
     title="Heidi Shepherd"
 />
 
-Y qué feliz me sentí cuando salieron <important text="Heidi Shepherd" /> y <important text="Carla Harvey" /> con esa actitud con la que callaron la bocachancla a más de uno que tenía detrás de mí que se tiraron todo el descanso hablando, por decir algo, del pasado del dúo angelino y quedándose estancados en lo burdo y en lo físico.
+Y qué feliz me sentí cuando salieron <important text="Heidi Shepherd" /> y <important text="Carla Harvey" />, con esa actitud con la que callaron la bocachancla a más de uno que tenía detrás de mí que se tiraron todo el descanso hablando, por decir algo, del pasado del dúo angelino y quedándose estancados en lo burdo y en lo físico.
 
 <post-image
     source="20221016-concert-amaranthe-btb/ButcherBabies-04"
     title="Carla Harvey"
 />
 
-Y es que las <important text="Butcher Babies" /> son un huracán sobre el escenario. Saltando, moviéndose, corriendo, bailando, descoyuntándose sin un sólo segundo de descanso. Y no sólo ellas, tanto <important text="Ricky Bonazza" /> como <important text="Henry Flury" /> al bajo y guitarra respectivamente, no pararon en todo momento de intercambiarse y no parar.
+Y es que las <important text="Butcher Babies" /> son un huracán sobre el escenario. Saltando, moviéndose, corriendo, bailando, descoyuntándose sin un sólo segundo de descanso. Y no sólo ellas, tanto <important text="Ricky Bonazza" /> como <important text="Henry Flury" /> al bajo y guitarra respectivamente, no pararon en todo momento de intercambiarse y seguirles el ritmo a las vocalistas.
 
 <post-image
     source="20221016-concert-amaranthe-btb/ButcherBabies-06"
@@ -84,7 +84,7 @@ La parte negativa... el sonido nuevamente. Es más, el sonido en este caso fue p
     title="Heidi Shepherd y Carla Harvey"
 />
 
-Agotado me dejaron <important text="Heidi" /> y <important text="Carla" />, a la par que fustrado no pudiendo haberles hecho ni una foto decente entre su hiperactividad sobre las tablas y mi Huawei chustero que hace lo que puede (algún día me animaré a llevar mi cámara a un concierto), la mayoría de las fotos sólo se podía apreciar un borrón rubio y otro moreno. Y tal como me pasara con <important text="Ad Infinitum" />, espero que <important text="Butcher Babies" /> vuelvan a Madrid a seguir dando caña en mejores circustancias acústicas.
+Agotado me dejaron <important text="Heidi" /> y <important text="Carla" />, a la par que fustrado no pudiendo haberles hecho ni una foto decente entre su hiperactividad sobre las tablas y mi Huawei chustero que hace lo que puede (algún día me animaré a llevar mi cámara a un concierto), la mayoría de las fotos sólo se podía apreciar un borrón rubio y otro negro-azulado. Y tal como me pasara con <important text="Ad Infinitum" />, espero que <important text="Butcher Babies" /> vuelvan a Madrid a seguir dando caña en mejores circustancias acústicas.
 
 <post-image
     source="20221016-concert-amaranthe-btb/ButcherBabies-11"

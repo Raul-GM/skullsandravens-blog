@@ -93,6 +93,7 @@ export default {
   }
   & > p {
     width: 100%;
+    max-width: 900px;
   }
 }
 .post-header__image {
