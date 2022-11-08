@@ -1,6 +1,8 @@
 # skulls_and_ravens
 
 > My finest Nuxt.js project
+## Node Version
+16.17.1
 
 ## Build Setup
 
