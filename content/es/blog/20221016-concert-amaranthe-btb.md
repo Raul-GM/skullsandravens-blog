@@ -3,7 +3,7 @@ title: '[Crónica] Amaranthe, Beyond The Black, Butcher Babies y Ad Infinitum: L
 id: '20221016-concert-amaranthe-btb'
 date: 2022-11-05T11:57:00-05:00
 categories: ['gig']
-tags: ['AdInfinitum', 'Butcher Babies', 'Beyond the Black', 'Amaranthe', 'Melissa Bonny', 'Adrian Theßenvitz', 'Korbinian Benedict', 'Niklas Müller', 'Heidi Shepherd', 'Carla Harvey', 'Ricky Bonazza', 'Henry Flury', 'Jennifer Haben', 'Kai Tschierschky', 'Chris Hermsdörfer', 'Tobias Lodes', 'Henrik Englund', 'GG6', 'Nil Molin', 'Elize Ryd', 'Olof Mörck', 'Richar Sjunnesson', 'Morten Løwe Sørensen', 'Johan Andreassen']
+tags: ['AdInfinitum', 'Butcher Babies', 'Beyond the Black', 'Amaranthe', 'Melissa Bonny', 'Adrian Theßenvitz', 'Korbinian Benedict', 'Niklas Müller', 'Heidi Shepherd', 'Carla Harvey', 'Ricky Bonazza', 'Henry Flury', 'Jennifer Haben', 'Kai Tschierschky', 'Chris Hermsdörfer', 'Tobias Lodes', 'Henrik Englund', 'GG6', 'Nils Molin', 'Elize Ryd', 'Olof Mörck', 'Richard Sjunnesson', 'Morten Løwe Sørensen', 'Johan Andreassen']
 description: |
     Amaranthe y Beyond the Black se alían con Ad Infinitum y Butcher Babies para reventar Madrid
 ---
@@ -91,7 +91,7 @@ Agotado me dejaron <important text="Heidi" /> y <important text="Carla" />, a la
     title="Heidi Shepherd y Carla Harvey Best Friends"
 />
 
-Y llegó el momento de la mandanga. Mandanga's time. El escenario tenía una pinta estupenda con los focos que habían descubierto para recibir a un grupo que descubrí durante pandemia, <important text="Beyond the Black" /> y me enamoré de ellos con su <important text="Horizons" />. Lo más gracioso del tema, es que preparándome para este concierto he ido escuchando los discos anteriores de su corta  pero prolífica, hasta ahora, carrera y me parecen mucho más adictivos que este. Incluso los nuevos singles estrenados hasta la fecha, que formarán parte de su próximo álbum, previsto para 2023, me parecen increibles, por lo que si ya estaba dentrísimo de la banda de <important text="Jennifer Haben" />, ahora lo estaba más si cabe y esperando para verles en directo.
+Y llegó el momento de la mandanga. Mandanga's time. El escenario tenía una pinta estupenda con los focos que habían descubierto para recibir a un grupo que conocí durante pandemia, <important text="Beyond the Black" />, enamorándome de ellos con su <important text="Horizons" />. Lo más gracioso del tema, es que preparándome para este concierto he ido escuchando los discos anteriores de su corta  pero prolífica, hasta ahora, carrera y me parecen mucho más adictivos que este. Incluso los nuevos singles estrenados hasta la fecha, que formarán parte de su próximo álbum, previsto para 2023, me parecen increibles, por lo que si ya estaba dentrísimo de la banda de <important text="Jennifer Haben" />, ahora lo estaba más si cabe y esperando para verles en directo.
 
 <post-image
     source="20221016-concert-amaranthe-btb/BeyondTheBlack-01"
@@ -112,14 +112,14 @@ El concierto fue magia pura. <important text="Jennifer Haven" /> inició la vela
     title="Chris"
 />
 
-Fue un auténtico acierto el setlist seleccionado para esta noche (que repitieron durante toda la gira) ya que son temas que hacen reventar salas. Temas bailables y cantables y saltables. La front-woman es un puro espectáculo, sin parar de moverse, de actual e interactuar con el público siempre con una sonrisa en la cara. Con cambios de vestuario delante de nuestras narices que te hacían estallar la cabeza y con momentos épicos como en <important text="Human" /> cantando con la corona y la máscara o en <important text="Dancing in the Dark" />, aporreando el bombo acompañado por <important text="Kai Tschierschky" /> a la batería y por todo el público previamente aleccionado por la alemana. <important text="Dancing in the Dark" />, por cierto, que se estrenaba en esta gira, formará parte de su siguiente disco.
+Fue un auténtico acierto el setlist seleccionado para esta noche (que repitieron durante toda la gira) ya que son temas que hacen reventar salas. Temas bailables y cantables y saltables. La front-woman es un puro espectáculo, sin parar de moverse, de actuar e interactuar con el público siempre con una sonrisa en la cara. Con cambios de vestuario delante de nuestras narices que te hacían estallar la cabeza y con momentos épicos como en <important text="Human" /> cantando con la corona y la máscara o en <important text="Dancing in the Dark" />, aporreando el bombo acompañado por <important text="Kai Tschierschky" /> a la batería y por todo el público previamente aleccionado por la alemana. <important text="Dancing in the Dark" />, por cierto, que se estrenaba en esta gira, formará parte de su siguiente disco.
 
 <post-image
     source="20221016-concert-amaranthe-btb/BeyondTheBlack-05"
     title="Jennifer Haben"
 />
 
-<important text="Chris Hermsdörfer" />, guitarrista a la vez que corista de la banda, fue una de las sorpresas de la noche, a compañando a <important text="Jennifer" /> en todo momento con los guturales y guitarra aliviando en ocasiones el peso que soporta la fundadora del grupo en todo momento. Y es que entre ella y <important text="Chris" /> hacen que todo fluya, mientras que el otro guitarrista, <important text="Tobias Lodes" />, el bajista (no conozco su nombre, mil perdones) y <important text="Kai Tschierschky" /> se quedan en un discreto segundo plano.
+<important text="Chris Hermsdörfer" />, guitarrista a la vez que corista de la banda, fue una de las sorpresas de la noche, acompañando a <important text="Jennifer" /> en todo momento con los guturales y guitarra aliviando en ocasiones el peso de la actuacuión que soporta la fundadora del grupo en todo momento. Y es que entre ella y <important text="Chris" /> hacen que todo fluya, mientras que el otro guitarrista, <important text="Tobias Lodes" />, el bajista (no conozco su nombre, mil perdones) y <important text="Kai Tschierschky" /> se quedan en un discreto segundo plano.
 
 <post-image
     source="20221016-concert-amaranthe-btb/BeyondTheBlack-12"
@@ -149,21 +149,21 @@ Me fijé que había varias personas a mi alrededor que se habían ido, no sé si
     title="Amaranthe"
 />
 
-Tercera vez que veía a los suecos, anteriormente como teloneros de <important text="Powerwolf" /> en esta misma sala y de <important text="Sabaton" /> en <important text="Vistalegre" />. Sabía lo que me iba a encontrar, una fiesta en toda regla, pero no sabía si iba a disfrutar del dinamismo y el sonido de la última vez o de la frialdad de la primera. Y más teniendo en cuenta la reciente salida del carismático <important text="Henrik Englund" /> a.k.a. <important text="GG6" />.
+Tercera vez que veía a los suecos, anteriormente como teloneros de <important text="Powerwolf" /> en esta misma sala y de <important text="Sabaton" /> en <important text="Vistalegre" />. Sabía lo que me iba a encontrar, una fiesta en toda regla, pero no sabía si iba a disfrutar del dinamismo y el sonido de la última vez o de la frialdad de la primera. Y más teniendo en cuenta la reciente salida del carismático <important text="Henrik Englund" /> a.k.a. <important text="GG6" /> de la banda.
 
 <post-image
     source="20221016-concert-amaranthe-btb/Amaranthe-09"
     title="Johan"
 />
 
-La traca final comenzó con la increíble <important text="Fearless" />, presentando la puesta en escena de unos <important text="Amaranthe" /> que sonaron muy bien durante toda la noche y donde <important text="Nil Molin" /> cogió la batuta esa noche. No sé si fueron imaginaciones mías, pero vi que <important text="Elize Ryd" /> no estaba al 100%. No sé si sería cansancio o que estuviera constipada pero me dio la sensación que le pasaba algo que no le permitía ser la <important text="Elize" /> que nos tenía acostumbrado. Entró tarde en alguna canción, bastante estática e incluso tosiendo en algún momento del show. Pero como punto positivo, <important text="Elize Ryd" /> estuvo dando el callo en todo momento, con su simpatía y buena actitud, cosa que la honra enormemente.
+La traca final comenzó con la increíble <important text="Fearless" />, presentando la puesta en escena de unos <important text="Amaranthe" /> que sonaron muy bien durante toda la noche y donde <important text="Nils Molin" /> cogió la batuta esa noche. No sé si fueron imaginaciones mías, pero vi que <important text="Elize Ryd" /> no estaba al 100%. No sé si sería cansancio o que estuviera constipada pero me dio la sensación que le pasaba algo que no le permitía ser la <important text="Elize" /> que nos tenía acostumbrado. Entró tarde en alguna canción, bastante estática e incluso tosiendo en algún momento del show. Pero como punto positivo, <important text="Elize Ryd" /> estuvo dando el callo en todo momento, con su simpatía y buena actitud, cosa que la honra enormemente. Todo mi cariño y respeto para ella.
 
 <post-image
     source="20221016-concert-amaranthe-btb/Amaranthe-02"
     title="Elize Ryd"
 />
 
-Con este plantel, los suecos levantaron la riviera en volandas. <important text="Olof Mörck" /> estuvo incluso más participativo de lo normal, <important text="Johan Andreassen" /> estuvo más que correcto y la batería muy solvente en manos de <important text="Morten Løwe Sørensen" />. Sustituyendo en esta gira a <important text="Henrick" /> se encontraba <important text="Richar Sjunnesson" /> cumpliendo un gran papel. Vocalmente estuvo totalmente a la altura, aunque yo echaba en falta el carisma de su antecesor. Lógico por otro lado.
+Con este plantel, los suecos levantaron la riviera en volandas. <important text="Olof Mörck" /> estuvo incluso más participativo de lo normal, <important text="Johan Andreassen" /> estuvo más que correcto y la batería muy solvente en manos de <important text="Morten Løwe Sørensen" />. Sustituyendo en esta gira a <important text="Henrick" /> se encontraba <important text="Richard Sjunnesson" /> cumpliendo un gran papel. Vocalmente estuvo totalmente a la altura, aunque yo echaba en falta el carisma de su antecesor. Lógico por otro lado.
 
 <post-image
     source="20221016-concert-amaranthe-btb/Amaranthe-06"
@@ -177,18 +177,18 @@ El setlist fue el esperado con un comienzo vertiginoso con la <important text="F
     title="Olof Mörck y Niil Molin"
 />
 
-Una vez más el momento mágico de la noche llegó con la obligada <important text="Amaranthine" /> donde permitieron lucirse tanto a <important text="Elize Ryd" /> como de <important text="Nil Molin" />. Vaya fichajazo hicieron con el vocalista de <important text="Dynazty" />, estuvo espléndido toda la noche.
+Una vez más el momento mágico de la noche llegó con la obligada <important text="Amaranthine" /> donde permitieron lucirse tanto a <important text="Elize Ryd" /> como a <important text="Nils Molin" />. Vaya fichajazo hicieron con el vocalista de <important text="Dynazty" />, estuvo espléndido toda la noche.
 
 <post-image
     source="20221016-concert-amaranthe-btb/Amaranthe-15"
-    title="Elize Ryd y Nil Molin"
+    title="Elize Ryd y Nils Molin"
 />
 
 Reconozco que me enganché a <important text="Amaranthe" /> desde <important text="Maximalism" />, pero siempre disfruto más en directo de las canciones de sus primeros discos como <important text="Call Out My Name" />, <important text="That Song" /> y la que cerraría la noche, <important text="Drop Dead Cynical" />.
 
 <post-image
     source="20221016-concert-amaranthe-btb/Amaranthe-04"
-    title="Nil Molin"
+    title="Nils Molin"
 />
 
 En definitiva, fue una tarde-noche fabulosa. Una fiesta sin descanso, sólo empañada por los fallos de sonido de las dos primeras bandas. Tras los dos retrasos de esta gira, puedo decir que la espera mereció la pena.
@@ -200,7 +200,7 @@ En definitiva, fue una tarde-noche fabulosa. Una fiesta sin descanso, sólo empa
 
 ## Bis
 
-Hubiera sido mágico que tanto Jennifer Haben como Elize Ryd hubieran unido fuerzas y hubieran cantado juntas alguna canción como están haciendo en la recta final de la gira. Recordemos que grabaron juntas una versión del Make It Better
+Hubiera sido mágico que tanto <important text="Jennifer Haben" /> como <important text="Elize Ryd" /> hubieran unido fuerzas y hubieran cantado juntas alguna canción como están haciendo en la recta final de la gira. Recordemos que grabaron juntas una versión del Ma<important text="Make it Better" />
 
 <post-image
     source="20221016-concert-amaranthe-btb/Amaranthe-12"
