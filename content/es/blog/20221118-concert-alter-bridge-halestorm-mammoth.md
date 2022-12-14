@@ -122,6 +122,10 @@ Fuera como fuere, esa noche hice otra muesca en la lista de noches inolvidables 
 
 <h4>Live Loud! Live Wild!</h4>
 
+## Vídeo resumen
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JK51tbeLmoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Más fotos
 
 <div class="image-gallery">
