@@ -27,7 +27,7 @@
     "elliptic": "^6.5.4",
     "frontmatter-markdown-loader": "^3.7.0",
     "minimist": ">=1.2.6",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.0.0",
     "nuxt-i18n": "^6.28.1",
     "nuxt-webfontloader": "^1.1.0",
     "path": "^0.12.7",
