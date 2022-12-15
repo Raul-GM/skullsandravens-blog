@@ -130,7 +130,7 @@ Es difícil quedarse con una canción del grupo esa noche. <important text="Ambr
 
 ## Vídeo resumen
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oxOrrW1kk0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video-container" width="560" height="315" src="https://www.youtube.com/embed/oxOrrW1kk0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Más fotos
 

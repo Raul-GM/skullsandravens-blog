@@ -1,5 +1,5 @@
 ---
-title: '[Crónica] Alter Bridge, Halestorm y Mammoth WVH, una historia de consolidación, madurez y futuro'
+title: '[Crónica] Alter Bridge, Halestorm y Mammoth WVH, consolidación, madurez y futuro'
 id: '20221118-concert-alter-bridge-halestorm-mammoth'
 date: 2022-12-13T11:57:00-05:00
 categories: ['gig']
@@ -124,7 +124,7 @@ Fuera como fuere, esa noche hice otra muesca en la lista de noches inolvidables 
 
 ## Vídeo resumen
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JK51tbeLmoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video-container" width="560" height="315" src="https://www.youtube.com/embed/JK51tbeLmoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Más fotos
 

@@ -14,3 +14,10 @@ body {
 		-2px 2px var(--background-color),
 		-2px -2px var(--background-color);
 }
+
+@media (max-width: 640px) {
+	.video-container {
+		width: 280px;
+		height: 156px;
+	}
+}
