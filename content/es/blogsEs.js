@@ -1,4 +1,5 @@
 export default [
+  '20230214-concert-tarja-temperance-serpentyne',
   '20221118-concert-alter-bridge-halestorm-mammoth',
   '20221116-concert-eluveitie-amorphis',
   '20221016-concert-amaranthe-btb',
